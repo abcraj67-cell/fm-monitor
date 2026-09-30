@@ -1,0 +1,226 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FileMagics Health Report</title>
+<style>
+:root{--bg:#f7f8fa;--card:#fff;--fg:#1c2330;--muted:#6b7280;--line:#e5e7eb;--ok:#1f9d55;--okbg:#e6f6ec;--bad:#d64545;--badbg:#fdecec;--na:#d1d5db}
+@media (prefers-color-scheme:dark){:root{--bg:#0f141b;--card:#171e27;--fg:#e6e9ee;--muted:#9aa3af;--line:#27313d;--ok:#3ecf7a;--okbg:#12311f;--bad:#ff6b6b;--badbg:#3a1717;--na:#3a4553}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+.wrap{max-width:1100px;margin:0 auto;padding:24px 16px}h1{font-size:22px;margin:0 0 4px}h2{font-size:15px;margin:28px 0 8px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+.muted{color:var(--muted)}.small{font-size:12px;margin-top:4px}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:18px 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px}.card b{display:block;font-size:26px}
+.card.ok b{color:var(--ok)}.card.bad b{color:var(--bad)}
+table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}th{font-size:12px;color:var(--muted);font-weight:600}
+tr.failrow{background:var(--badbg)}.num{white-space:nowrap;font-variant-numeric:tabular-nums}a{color:inherit}
+.pill{font-size:12px;font-weight:600;padding:2px 8px;border-radius:99px;white-space:nowrap}.pill.ok{background:var(--okbg);color:var(--ok)}.pill.bad{background:var(--bad);color:#fff}
+.trend{white-space:nowrap}.dot{display:inline-block;width:8px;height:14px;border-radius:2px;margin-right:2px}.dot.ok{background:var(--ok)}.dot.bad{background:var(--bad)}.dot.na{background:var(--na)}
+.bars{display:flex;gap:3px;align-items:flex-end;height:60px;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px}
+.bar{flex:1;height:100%;display:flex;align-items:flex-end}.bar div{width:100%;border-radius:2px}.bar .ok{background:var(--ok)}.bar .bad{background:var(--bad)}
+.scroll{overflow-x:auto}
+</style></head><body><div class="wrap">
+<h1>🔴 FileMagics Health Report</h1>
+<div class="muted">https://www.filemagics.com · run on 30 Sept 2026, 11:52 pm IST · took 719s</div>
+<div class="cards">
+ <div class="card"><span class="muted">Checks</span><b>39</b></div>
+ <div class="card ok"><span class="muted">Passed</span><b>34</b></div>
+ <div class="card bad"><span class="muted">Failed</span><b>5</b></div>
+ <div class="card"><span class="muted">Pass rate</span><b>87%</b></div>
+</div>
+
+<h2>Site pages</h2><div class="scroll"><table><thead><tr><th>Feature</th><th>Status</th><th>Time</th><th>Details</th><th>Last 14 days</th></tr></thead><tbody><tr class="">
+      <td><a href="https://www.filemagics.com/" target="_blank" rel="noopener">Home page</a></td>
+      <td><span class="pill ok">PASS</span></td>
+      <td class="num">0.4s</td>
+      <td>FileMagics | Free Online PDF &amp; File Conversion Tools — 294 ms</td>
+      <td class="trend"><i class="dot ok" title="30 Sept 2026, 11:52 pm: PASS"></i></td></tr><tr class="">
+      <td><a href="https://www.filemagics.com/blog" target="_blank" rel="noopener">Blog</a></td>
+      <td><span class="pill ok">PASS</span></td>
+      <td class="num">0.5s</td>
+      <td>FileMagics | Free Online PDF &amp; File Conversion Tools — 435 ms</td>
+      <td class="trend"><i class="dot ok" title="30 Sept 2026, 11:52 pm: PASS"></i></td></tr><tr class="">
+      <td><a href="https://www.filemagics.com/about-us" target="_blank" rel="noopener">About us</a></td>
+      <td><span class="pill ok">PASS</span></td>
+      <td class="num">0.2s</td>
+      <td>About FileMagics | Free Online File Converter Tools — 109 ms</td>
+      <td class="trend"><i class="dot ok" title="30 Sept 2026, 11:52 pm: PASS"></i></td></tr><tr class="">
+      <td><a href="https://www.filemagics.com/contact-us" target="_blank" rel="noopener">Contact us</a></td>
+      <td><span class="pill ok">PASS</span></td>
+      <td class="num">0.2s</td>
+      <td>Contact FileMagics | Get Support for File Conversion — 139 ms</td>
+      <td class="trend"><i class="dot ok" title="30 Sept 2026, 11:52 pm: PASS"></i></td></tr><tr class="">
+      <td><a href="https://www.filemagics.com/faq" target="_blank" rel="noopener">FAQ</a></td>
+      <td><span class="pill ok">PASS</span></td>
+      <td class="num">0.2s</td>
+      <td>FAQ | Questions About File Conversion — 153 ms</td>
+      <td class="trend"><i class="dot ok" title="30 Sept 2026, 11:52 pm: PASS"></i></td></tr><tr class="">
+      <td><a href="https://www.filemagics.com/privacy-policy" target="_blank" rel="noopener">Privacy policy</a></td>
+      <td><span class="pill ok">PASS</span></td>
+      <td class="num">0.4s</td>
+      <td>Privacy Policy | How We Protect Your Data — 298 ms</td>
+      <td class="trend"><i class="dot ok" title="30 Sept 2026, 11:52 pm: PASS"></i></td></tr><tr class="">
+      <td><a href="https://www.filemagics.com/terms-conditions" target="_blank" rel="noopener">Terms &amp; conditions</a></td>
+      <td><span class="pill ok">PASS</span></td>
+      <td class="num">0.3s</td>
+      <td>Terms &amp; Conditions | File Conversion Services — 214 ms</td>
+      <td class="trend"><i class="dot ok" title="30 Sept 2026, 11:52 pm: PASS"></i></td></tr><tr class="">
+      <td><a href="https://www.filemagics.com/support-us" target="_blank" rel="noopener">Support us</a></td>
+      <td><span class="pill ok">PASS</span></td>
+      <td class="num">0.2s</td>
+      <td>Support FileMagics.com | Help Keep Free Tools Running — 123 ms</td>
+      <td class="trend"><i class="dot ok" title="30 Sept 2026, 11:52 pm: PASS"></i></td></tr></tbody></table></div><h2>PDF Tools</h2><div class="scroll"><table><thead><tr><th>Feature</th><th>Status</th><th>Time</th><th>Details</th><th>Last 14 days</th></tr></thead><tbody><tr class="">
+      <td><a href="https://www.filemagics.com/pdf-to-doc" target="_blank" rel="noopener">PDF to Word</a></td>
+      <td><span class="pill ok">PASS</span></td>
+      <td class="num">5.0s</td>
+      <td>Valid DOCX (35.9 KB)<div class="muted small">/proxyApi/convert-pdf-to-docx → 308 (0.1s)<br>/proxyApi/convert-pdf-to-docx → 200 (3.6s)</div></td>
+      <td class="trend"><i class="dot ok" title="30 Sept 2026, 11:52 pm: PASS"></i></td></tr><tr class="">
+      <td><a href="https://www.filemagics.com/pdf-to-excel" target="_blank" rel="noopener">PDF to Excel</a></td>
+      <td><span class="pill ok">PASS</span></td>
+      <td class="num">3.0s</td>
+      <td>Valid XLSX (4.9 KB)<div class="muted small">/proxyApi/convert-pdf-to-excel-file → 308 (0.1s)<br>/proxyApi/convert-pdf-to-excel-file → 200 (0.3s)</div></td>
+      <td class="trend"><i class="dot ok" title="30 Sept 2026, 11:52 pm: PASS"></i></td></tr><tr class="">
+      <td><a href="https://www.filemagics.com/pdf-to-ppt" target="_blank" rel="noopener">PDF to PowerPoint</a></td>
+      <td><span class="pill ok">PASS</span></td>
+      <td class="num">7.0s</td>
+      <td>Valid PPTX (96.9 KB)</td>
+      <td class="trend"><i class="dot ok" title="30 Sept 2026, 11:52 pm: PASS"></i></td></tr><tr class="">
+      <td><a href="https://www.filemagics.com/pdf-to-pdfa" target="_blank" rel="noopener">PDF to PDF/A</a></td>
+      <td><span class="pill ok">PASS</span></td>
+      <td class="num">4.0s</td>
+      <td>Valid PDF (3.0 KB)</td>
+      <td class="trend"><i class="dot ok" title="30 Sept 2026, 11:52 pm: PASS"></i></td></tr><tr class="">
+      <td><a href="https://www.filemagics.com/pdf-to-text" target="_blank" rel="noopener">PDF to Text</a></td>
+      <td><span class="pill ok">PASS</span></td>
+      <td class="num">3.1s</td>
+      <td>Valid TXT (336 B)<div class="muted small">/proxyApi/convert-pdf-to-text-file → 308 (0.1s)<br>/proxyApi/convert-pdf-to-text-file → 200 (0.1s)</div></td>
+      <td class="trend"><i class="dot ok" title="30 Sept 2026, 11:52 pm: PASS"></i></td></tr><tr class="">
+      <td><a href="https://www.filemagics.com/pdf-to-image" target="_blank" rel="noopener">PDF to Image</a></td>
+      <td><span class="pill ok">PASS</span></td>
+      <td class="num">3.0s</td>
+      <td>Valid PNG (34.9 KB)<div class="muted small">/proxyApi/convert-pdf-to-image → 308 (0.1s)<br>/proxyApi/convert-pdf-to-image → 200 (0.7s)</div></td>
+      <td class="trend"><i class="dot ok" title="30 Sept 2026, 11:52 pm: PASS"></i></td></tr><tr class="">
+      <td><a href="https://www.filemagics.com/merge-pdf" target="_blank" rel="noopener">Merge PDF</a></td>
+      <td><span class="pill ok">PASS</span></td>
+      <td class="num">4.1s</td>
+      <td>Valid PDF (3.8 KB)<div class="muted small">/proxyApi/merge-pdfs → 308 (0.1s)<br>/proxyApi/merge-pdfs → 200 (0.1s)</div></td>
+      <td class="trend"><i class="dot ok" title="30 Sept 2026, 11:52 pm: PASS"></i></td></tr><tr class="">
+      <td><a href="https://www.filemagics.com/compress-pdf" target="_blank" rel="noopener">Compress PDF</a></td>
+      <td><span class="pill ok">PASS</span></td>
+      <td class="num">3.0s</td>
+      <td>Valid PDF (2.1 KB)<div class="muted small">/proxyApi/compress-pdf → 308 (0.1s)<br>/proxyApi/compress-pdf → 200 (0.2s)</div></td>
+      <td class="trend"><i class="dot ok" title="30 Sept 2026, 11:52 pm: PASS"></i></td></tr><tr class="">
+      <td><a href="https://www.filemagics.com/enhance-pdf-quality" target="_blank" rel="noopener">Enhance PDF Quality</a></td>
+      <td><span class="pill ok">PASS</span></td>
+      <td class="num">2.9s</td>
+      <td>Valid PDF (2.1 KB)<div class="muted small">/proxyApi/enhance-pdf-quality → 308 (0.1s)<br>/proxyApi/enhance-pdf-quality → 200 (0.2s)</div></td>
+      <td class="trend"><i class="dot ok" title="30 Sept 2026, 11:52 pm: PASS"></i></td></tr><tr class="">
+      <td><a href="https://www.filemagics.com/edit-pdf" target="_blank" rel="noopener">Edit PDF</a></td>
+      <td><span class="pill ok">PASS</span></td>
+      <td class="num">3.0s</td>
+      <td>Smoke check: page loaded and accepted the upload (interactive tool, no conversion run)</td>
+      <td class="trend"><i class="dot ok" title="30 Sept 2026, 11:52 pm: PASS"></i></td></tr><tr class="failrow">
+      <td><a href="https://www.filemagics.com/crop-pdf" target="_blank" rel="noopener">Crop PDF</a></td>
+      <td><span class="pill bad">FAIL</span></td>
+      <td class="num">123.7s</td>
+      <td>No result after 120s (no API call was made) <span class="muted">(processing)</span><div class="muted small"><a href="artifacts/crop-pdf__fail.png">screenshot</a></div></td>
+      <td class="trend"><i class="dot bad" title="30 Sept 2026, 11:52 pm: FAIL"></i></td></tr><tr class="">
+      <td><a href="https://www.filemagics.com/add-page-numbers" target="_blank" rel="noopener">Add Page Numbers</a></td>
+      <td><span class="pill ok">PASS</span></td>
+      <td class="num">4.2s</td>
+      <td>Valid PDF (3.1 KB)</td>
+      <td class="trend"><i class="dot ok" title="30 Sept 2026, 11:52 pm: PASS"></i></td></tr><tr class="">
+      <td><a href="https://www.filemagics.com/rotate-pdf" target="_blank" rel="noopener">Rotate PDF</a></td>
+      <td><span class="pill ok">PASS</span></td>
+      <td class="num">3.6s</td>
+      <td>Valid PDF (2.8 KB)</td>
+      <td class="trend"><i class="dot ok" title="30 Sept 2026, 11:52 pm: PASS"></i></td></tr><tr class="">
+      <td><a href="https://www.filemagics.com/extract-pages" target="_blank" rel="noopener">Extract Pages</a></td>
+      <td><span class="pill ok">PASS</span></td>
+      <td class="num">5.4s</td>
+      <td>Valid PDF (1.9 KB)</td>
+      <td class="trend"><i class="dot ok" title="30 Sept 2026, 11:52 pm: PASS"></i></td></tr><tr class="">
+      <td><a href="https://www.filemagics.com/organize-pdf" target="_blank" rel="noopener">Organize PDF</a></td>
+      <td><span class="pill ok">PASS</span></td>
+      <td class="num">4.0s</td>
+      <td>Valid PDF (2.8 KB)</td>
+      <td class="trend"><i class="dot ok" title="30 Sept 2026, 11:52 pm: PASS"></i></td></tr><tr class="failrow">
+      <td><a href="https://www.filemagics.com/remove-pages" target="_blank" rel="noopener">Remove Pages</a></td>
+      <td><span class="pill bad">FAIL</span></td>
+      <td class="num">20.8s</td>
+      <td>No action button found. Visible buttons: Mark range for removal | Clear | Remove Pages <span class="muted">(processing)</span><div class="muted small"><a href="artifacts/remove-pages__fail.png">screenshot</a></div></td>
+      <td class="trend"><i class="dot bad" title="30 Sept 2026, 11:52 pm: FAIL"></i></td></tr><tr class="">
+      <td><a href="https://www.filemagics.com/repair-pdf" target="_blank" rel="noopener">Repair PDF</a></td>
+      <td><span class="pill ok">PASS</span></td>
+      <td class="num">4.1s</td>
+      <td>Valid PDF (1.9 KB)</td>
+      <td class="trend"><i class="dot ok" title="30 Sept 2026, 11:52 pm: PASS"></i></td></tr><tr class="failrow">
+      <td><a href="https://www.filemagics.com/ocr-pdf" target="_blank" rel="noopener">OCR PDF</a></td>
+      <td><span class="pill bad">FAIL</span></td>
+      <td class="num">21.1s</td>
+      <td>No action button found. Visible buttons: Single language | Multi-language | Make PDF Searchable <span class="muted">(processing)</span><div class="muted small"><a href="artifacts/ocr-pdf__fail.png">screenshot</a></div></td>
+      <td class="trend"><i class="dot bad" title="30 Sept 2026, 11:52 pm: FAIL"></i></td></tr><tr class="">
+      <td><a href="https://www.filemagics.com/scan-to-pdf" target="_blank" rel="noopener">Scan to PDF</a></td>
+      <td><span class="pill ok">PASS</span></td>
+      <td class="num">4.0s</td>
+      <td>Valid PDF (19.3 KB)</td>
+      <td class="trend"><i class="dot ok" title="30 Sept 2026, 11:52 pm: PASS"></i></td></tr></tbody></table></div><h2>Document Tools</h2><div class="scroll"><table><thead><tr><th>Feature</th><th>Status</th><th>Time</th><th>Details</th><th>Last 14 days</th></tr></thead><tbody><tr class="failrow">
+      <td><a href="https://www.filemagics.com/html-to-pdf" target="_blank" rel="noopener">HTML to PDF</a></td>
+      <td><span class="pill bad">FAIL</span></td>
+      <td class="num">20.3s</td>
+      <td>No action button found. Visible buttons: Print <span class="muted">(processing)</span><div class="muted small"><a href="artifacts/html-to-pdf__fail.png">screenshot</a></div></td>
+      <td class="trend"><i class="dot bad" title="30 Sept 2026, 11:52 pm: FAIL"></i></td></tr><tr class="">
+      <td><a href="https://www.filemagics.com/docs-to-pdf" target="_blank" rel="noopener">Word to PDF</a></td>
+      <td><span class="pill ok">PASS</span></td>
+      <td class="num">3.0s</td>
+      <td>Valid PDF (1.4 KB)</td>
+      <td class="trend"><i class="dot ok" title="30 Sept 2026, 11:52 pm: PASS"></i></td></tr><tr class="">
+      <td><a href="https://www.filemagics.com/excel-to-pdf" target="_blank" rel="noopener">Excel to PDF</a></td>
+      <td><span class="pill ok">PASS</span></td>
+      <td class="num">5.0s</td>
+      <td>Valid PDF (1.2 KB)</td>
+      <td class="trend"><i class="dot ok" title="30 Sept 2026, 11:52 pm: PASS"></i></td></tr><tr class="">
+      <td><a href="https://www.filemagics.com/ppt-to-pdf" target="_blank" rel="noopener">PowerPoint to PDF</a></td>
+      <td><span class="pill ok">PASS</span></td>
+      <td class="num">3.0s</td>
+      <td>Valid PDF (1.4 KB)</td>
+      <td class="trend"><i class="dot ok" title="30 Sept 2026, 11:52 pm: PASS"></i></td></tr><tr class="">
+      <td><a href="https://www.filemagics.com/md-to-pdf" target="_blank" rel="noopener">Markdown to PDF</a></td>
+      <td><span class="pill ok">PASS</span></td>
+      <td class="num">3.0s</td>
+      <td>Valid PDF (1.2 KB)</td>
+      <td class="trend"><i class="dot ok" title="30 Sept 2026, 11:52 pm: PASS"></i></td></tr></tbody></table></div><h2>Image Tools</h2><div class="scroll"><table><thead><tr><th>Feature</th><th>Status</th><th>Time</th><th>Details</th><th>Last 14 days</th></tr></thead><tbody><tr class="">
+      <td><a href="https://www.filemagics.com/image-to-pdf" target="_blank" rel="noopener">Image to PDF</a></td>
+      <td><span class="pill ok">PASS</span></td>
+      <td class="num">5.0s</td>
+      <td>Valid PDF (16.2 KB)</td>
+      <td class="trend"><i class="dot ok" title="30 Sept 2026, 11:52 pm: PASS"></i></td></tr><tr class="">
+      <td><a href="https://www.filemagics.com/png-to-jpg" target="_blank" rel="noopener">PNG to JPG</a></td>
+      <td><span class="pill ok">PASS</span></td>
+      <td class="num">3.0s</td>
+      <td>Valid JPG (8.2 KB)</td>
+      <td class="trend"><i class="dot ok" title="30 Sept 2026, 11:52 pm: PASS"></i></td></tr><tr class="">
+      <td><a href="https://www.filemagics.com/jpg-to-png" target="_blank" rel="noopener">JPG to PNG</a></td>
+      <td><span class="pill ok">PASS</span></td>
+      <td class="num">3.0s</td>
+      <td>Valid PNG (15.1 KB)</td>
+      <td class="trend"><i class="dot ok" title="30 Sept 2026, 11:52 pm: PASS"></i></td></tr><tr class="">
+      <td><a href="https://www.filemagics.com/webp-to-png" target="_blank" rel="noopener">WEBP to PNG</a></td>
+      <td><span class="pill ok">PASS</span></td>
+      <td class="num">2.9s</td>
+      <td>Valid PNG (10.8 KB)</td>
+      <td class="trend"><i class="dot ok" title="30 Sept 2026, 11:52 pm: PASS"></i></td></tr><tr class="">
+      <td><a href="https://www.filemagics.com/compress-image" target="_blank" rel="noopener">Compress Image</a></td>
+      <td><span class="pill ok">PASS</span></td>
+      <td class="num">2.9s</td>
+      <td>Valid JPG (6.4 KB)</td>
+      <td class="trend"><i class="dot ok" title="30 Sept 2026, 11:52 pm: PASS"></i></td></tr><tr class="">
+      <td><a href="https://www.filemagics.com/png-to-svg" target="_blank" rel="noopener">PNG to SVG</a></td>
+      <td><span class="pill ok">PASS</span></td>
+      <td class="num">3.0s</td>
+      <td>Valid SVG (4.4 KB)</td>
+      <td class="trend"><i class="dot ok" title="30 Sept 2026, 11:52 pm: PASS"></i></td></tr><tr class="failrow">
+      <td><a href="https://www.filemagics.com/svg-to-png" target="_blank" rel="noopener">SVG to PNG</a></td>
+      <td><span class="pill bad">FAIL</span></td>
+      <td class="num">123.5s</td>
+      <td>No result after 120s (no API call was made) <span class="muted">(processing)</span><div class="muted small">4 JS error(s): Failed to load resource: the server responded with a status of 501 ()<br><a href="artifacts/svg-to-png__fail.png">screenshot</a></div></td>
+      <td class="trend"><i class="dot bad" title="30 Sept 2026, 11:52 pm: FAIL"></i></td></tr></tbody></table></div>
+<p class="muted small">Each tool is tested end-to-end: open page → upload sample file → run conversion → download result → verify the file type. Failures are retried once before being reported.</p>
+</div></body></html>
