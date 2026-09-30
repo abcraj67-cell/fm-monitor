@@ -1,0 +1,116 @@
+name: FileMagics daily check
+
+on:
+  schedule:
+    - cron: '30 0 * * *'   # 00:30 UTC = 06:00 IST, every day
+  workflow_dispatch:        # "Run workflow" button for on-demand checks
+
+permissions:
+  contents: write           # publish report to the gh-pages branch
+  issues: write             # open / close the "site broken" issue
+
+concurrency:
+  group: filemagics-daily
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies and browser
+        run: |
+          npm ci
+          npx playwright install --with-deps chromium
+
+      - name: Restore report history from gh-pages
+        run: |
+          mkdir -p report
+          git fetch origin gh-pages --depth=1 2>/dev/null \
+            && git show origin/gh-pages:history.json > report/history.json 2>/dev/null \
+            || echo "No previous history (first run)"
+
+      - name: Run feature tests
+        id: run
+        continue-on-error: true
+        run: node src/run.js
+
+      - name: Add summary to the run page
+        if: always()
+        run: cat report/summary.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Prepare dated copy of the report
+        if: always()
+        run: |
+          DAY=$(TZ=Asia/Kolkata date +%F)
+          mkdir -p site/reports/$DAY
+          cp -r report/* site/reports/$DAY/
+          cp report/index.html report/history.json report/results.json site/
+          # index of past reports
+          {
+            echo '<!doctype html><meta charset="utf-8"><title>Past reports</title><body style="font-family:system-ui;max-width:600px;margin:40px auto;padding:0 16px"><h1>Past FileMagics reports</h1><ul>'
+            git ls-tree --name-only origin/gh-pages reports/ 2>/dev/null | sed 's#reports/##' > /tmp/days.txt || true
+            echo "$DAY" >> /tmp/days.txt
+            sort -ru /tmp/days.txt | while read d; do echo "<li><a href=\"reports/$d/\">$d</a></li>"; done
+            echo '</ul><p><a href="./">Latest report</a></p>'
+          } > site/archive.html
+
+      - name: Publish report to GitHub Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
+          keep_files: true
+          commit_message: "Report ${{ github.run_id }}"
+
+      - name: Upload report as build artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: filemagics-report-${{ github.run_id }}
+          path: report/
+          retention-days: 30
+
+      - name: Open / update / close the failure issue
+        if: always()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const { summary } = JSON.parse(fs.readFileSync('report/results.json', 'utf8'));
+            const md = fs.readFileSync('report/summary.md', 'utf8');
+            const pages = `https://${context.repo.owner}.github.io/${context.repo.repo}/`;
+            const runUrl = `${process.env.GITHUB_SERVER_URL}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+            const title = '🔴 FileMagics: features failing';
+            const { data: open } = await github.rest.issues.listForRepo({ ...context.repo, state: 'open', labels: 'site-monitor' });
+            const existing = open.find(i => i.title === title);
+            const body = `${md}\n\n📊 [Full report](${pages}) · 🗂 [Past reports](${pages}archive.html) · ⚙️ [Run log](${runUrl})`;
+            if (summary.failed > 0) {
+              if (existing) await github.rest.issues.createComment({ ...context.repo, issue_number: existing.number, body });
+              else await github.rest.issues.create({ ...context.repo, title, body, labels: ['site-monitor'] });
+            } else if (existing) {
+              await github.rest.issues.createComment({ ...context.repo, issue_number: existing.number, body: `🟢 All ${summary.total} checks passing again.\n\n${body}` });
+              await github.rest.issues.update({ ...context.repo, issue_number: existing.number, state: 'closed' });
+            }
+
+      - name: Post to Slack (optional)
+        if: always() && env.SLACK_WEBHOOK_URL != ''
+        run: |
+          node -e '
+            const { summary: s } = require("./report/results.json");
+            const pages = `https://${process.env.GITHUB_REPOSITORY_OWNER}.github.io/${process.env.GITHUB_REPOSITORY.split("/")[1]}/`;
+            const lines = s.failures.map(f => `• *${f.name}* – ${f.message}`).join("\n");
+            const text = `${s.failed ? ":red_circle:" : ":large_green_circle:"} FileMagics daily check: *${s.passed}/${s.total} passed*\n${lines}\n<${pages}|Open full report>`;
+            fetch(process.env.SLACK_WEBHOOK_URL, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ text }) })
+              .then(r => console.log("Slack:", r.status));
+          '
