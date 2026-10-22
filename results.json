@@ -1,11 +1,11 @@
 {
   "summary": {
-    "date": "2026-10-21T05:07:54.652Z",
+    "date": "2026-10-22T05:11:02.667Z",
     "baseUrl": "https://www.filemagics.com",
     "total": 39,
     "passed": 34,
     "failed": 5,
-    "durationSec": 714,
+    "durationSec": 717,
     "failures": [
       {
         "slug": "crop-pdf",
@@ -48,10 +48,10 @@
       "url": "https://www.filemagics.com/",
       "status": "PASS",
       "consoleErrors": [],
-      "loadMs": 231,
+      "loadMs": 377,
       "httpStatus": 200,
-      "message": "FileMagics | Free Online PDF & File Conversion Tools — 231 ms",
-      "durationMs": 280
+      "message": "FileMagics | Free Online PDF & File Conversion Tools — 377 ms",
+      "durationMs": 432
     },
     {
       "kind": "page",
@@ -61,10 +61,10 @@
       "url": "https://www.filemagics.com/blog",
       "status": "PASS",
       "consoleErrors": [],
-      "loadMs": 326,
+      "loadMs": 415,
       "httpStatus": 200,
-      "message": "FileMagics.com Blog | PDF, Image & Video How-To Guides — 326 ms",
-      "durationMs": 377
+      "message": "FileMagics.com Blog | PDF, Image & Video How-To Guides — 415 ms",
+      "durationMs": 495
     },
     {
       "kind": "page",
@@ -74,10 +74,10 @@
       "url": "https://www.filemagics.com/about-us",
       "status": "PASS",
       "consoleErrors": [],
-      "loadMs": 97,
+      "loadMs": 180,
       "httpStatus": 200,
-      "message": "About FileMagics | Free Online File Converter Tools — 97 ms",
-      "durationMs": 166
+      "message": "About FileMagics | Free Online File Converter Tools — 180 ms",
+      "durationMs": 224
     },
     {
       "kind": "page",
@@ -87,10 +87,10 @@
       "url": "https://www.filemagics.com/contact-us",
       "status": "PASS",
       "consoleErrors": [],
-      "loadMs": 57,
+      "loadMs": 233,
       "httpStatus": 200,
-      "message": "Contact FileMagics | Get Support for File Conversion — 57 ms",
-      "durationMs": 161
+      "message": "Contact FileMagics | Get Support for File Conversion — 233 ms",
+      "durationMs": 281
     },
     {
       "kind": "page",
@@ -100,10 +100,10 @@
       "url": "https://www.filemagics.com/faq",
       "status": "PASS",
       "consoleErrors": [],
-      "loadMs": 112,
+      "loadMs": 166,
       "httpStatus": 200,
-      "message": "FAQ | Questions About File Conversion — 112 ms",
-      "durationMs": 183
+      "message": "FAQ | Questions About File Conversion — 166 ms",
+      "durationMs": 239
     },
     {
       "kind": "page",
@@ -113,10 +113,10 @@
       "url": "https://www.filemagics.com/privacy-policy",
       "status": "PASS",
       "consoleErrors": [],
-      "loadMs": 100,
+      "loadMs": 253,
       "httpStatus": 200,
-      "message": "Privacy Policy | How We Protect Your Data — 100 ms",
-      "durationMs": 172
+      "message": "Privacy Policy | How We Protect Your Data — 253 ms",
+      "durationMs": 303
     },
     {
       "kind": "page",
@@ -126,10 +126,10 @@
       "url": "https://www.filemagics.com/terms-conditions",
       "status": "PASS",
       "consoleErrors": [],
-      "loadMs": 103,
+      "loadMs": 223,
       "httpStatus": 200,
-      "message": "Terms & Conditions | File Conversion Services — 103 ms",
-      "durationMs": 171
+      "message": "Terms & Conditions | File Conversion Services — 223 ms",
+      "durationMs": 269
     },
     {
       "kind": "page",
@@ -139,10 +139,10 @@
       "url": "https://www.filemagics.com/support-us",
       "status": "PASS",
       "consoleErrors": [],
-      "loadMs": 122,
+      "loadMs": 184,
       "httpStatus": 200,
-      "message": "Support FileMagics.com | Help Keep Free Tools Running — 122 ms",
-      "durationMs": 192
+      "message": "Support FileMagics.com | Help Keep Free Tools Running — 184 ms",
+      "durationMs": 251
     },
     {
       "kind": "tool",
@@ -158,28 +158,26 @@
         {
           "endpoint": "/proxyApi/convert-pdf-to-docx",
           "status": 308,
-          "ms": 63
+          "ms": 134
         },
         {
           "endpoint": "/proxyApi/convert-pdf-to-docx",
           "status": 200,
-          "ms": 3029
+          "ms": 353
         }
       ],
-      "consoleErrors": [
-        "Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR"
-      ],
+      "consoleErrors": [],
       "notes": [
         "clicked \"Download File\""
       ],
-      "loadMs": 142,
+      "loadMs": 206,
       "httpStatus": 200,
       "output": {
         "file": "sample.docx",
         "type": "docx",
         "bytes": 36733
       },
-      "durationMs": 3923
+      "durationMs": 3010
     },
     {
       "kind": "tool",
@@ -195,28 +193,26 @@
         {
           "endpoint": "/proxyApi/convert-pdf-to-excel-file",
           "status": 308,
-          "ms": 62
+          "ms": 136
         },
         {
           "endpoint": "/proxyApi/convert-pdf-to-excel-file",
           "status": 200,
-          "ms": 219
+          "ms": 235
         }
       ],
-      "consoleErrors": [
-        "Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR"
-      ],
+      "consoleErrors": [],
       "notes": [
         "clicked \"Download File\""
       ],
-      "loadMs": 127,
+      "loadMs": 204,
       "httpStatus": 200,
       "output": {
         "file": "sample.xlsx",
         "type": "xlsx",
-        "bytes": 4983
+        "bytes": 4986
       },
-      "durationMs": 2883
+      "durationMs": 2984
     },
     {
       "kind": "tool",
@@ -229,21 +225,19 @@
       "message": "Valid PPTX (96.9 KB)",
       "attempt": 1,
       "api": [],
-      "consoleErrors": [
-        "Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR"
-      ],
+      "consoleErrors": [],
       "notes": [
         "clicked \"Convert to PowerPoint\"",
         "clicked \"Download PowerPoint\""
       ],
-      "loadMs": 136,
+      "loadMs": 196,
       "httpStatus": 200,
       "output": {
         "file": "sample.pptx",
         "type": "pptx",
         "bytes": 99199
       },
-      "durationMs": 6959
+      "durationMs": 7059
     },
     {
       "kind": "tool",
@@ -256,21 +250,19 @@
       "message": "Valid PDF (3.0 KB)",
       "attempt": 1,
       "api": [],
-      "consoleErrors": [
-        "Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR"
-      ],
+      "consoleErrors": [],
       "notes": [
         "clicked \"Convert to PDF/A-2b\"",
         "clicked \"Download PDF/A\""
       ],
-      "loadMs": 290,
+      "loadMs": 176,
       "httpStatus": 200,
       "output": {
         "file": "sample_pdfa.pdf",
         "type": "pdf",
         "bytes": 3041
       },
-      "durationMs": 4095
+      "durationMs": 3959
     },
     {
       "kind": "tool",
@@ -286,28 +278,26 @@
         {
           "endpoint": "/proxyApi/convert-pdf-to-text-file",
           "status": 308,
-          "ms": 71
+          "ms": 109
         },
         {
           "endpoint": "/proxyApi/convert-pdf-to-text-file",
           "status": 200,
-          "ms": 128
+          "ms": 146
         }
       ],
-      "consoleErrors": [
-        "Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR"
-      ],
+      "consoleErrors": [],
       "notes": [
         "clicked \"Download File\""
       ],
-      "loadMs": 62,
+      "loadMs": 206,
       "httpStatus": 200,
       "output": {
         "file": "sample.txt",
         "type": "txt",
         "bytes": 336
       },
-      "durationMs": 2872
+      "durationMs": 2955
     },
     {
       "kind": "tool",
@@ -323,28 +313,26 @@
         {
           "endpoint": "/proxyApi/convert-pdf-to-image",
           "status": 308,
-          "ms": 82
+          "ms": 114
         },
         {
           "endpoint": "/proxyApi/convert-pdf-to-image",
           "status": 200,
-          "ms": 651
+          "ms": 510
         }
       ],
-      "consoleErrors": [
-        "Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR"
-      ],
+      "consoleErrors": [],
       "notes": [
         "clicked \"Download File\""
       ],
-      "loadMs": 252,
+      "loadMs": 267,
       "httpStatus": 200,
       "output": {
         "file": "sample.png",
         "type": "png",
         "bytes": 35718
       },
-      "durationMs": 3034
+      "durationMs": 3035
     },
     {
       "kind": "tool",
@@ -360,29 +348,27 @@
         {
           "endpoint": "/proxyApi/merge-pdfs",
           "status": 308,
-          "ms": 45
+          "ms": 71
         },
         {
           "endpoint": "/proxyApi/merge-pdfs",
           "status": 200,
-          "ms": 112
+          "ms": 126
         }
       ],
-      "consoleErrors": [
-        "Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR"
-      ],
+      "consoleErrors": [],
       "notes": [
         "clicked \"Convert Now\"",
         "clicked \"Download File\""
       ],
-      "loadMs": 151,
+      "loadMs": 174,
       "httpStatus": 200,
       "output": {
         "file": "sample.pdf",
         "type": "pdf",
         "bytes": 3874
       },
-      "durationMs": 3984
+      "durationMs": 3978
     },
     {
       "kind": "tool",
@@ -398,28 +384,26 @@
         {
           "endpoint": "/proxyApi/compress-pdf",
           "status": 308,
-          "ms": 96
+          "ms": 87
         },
         {
           "endpoint": "/proxyApi/compress-pdf",
           "status": 200,
-          "ms": 84
+          "ms": 102
         }
       ],
-      "consoleErrors": [
-        "Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR"
-      ],
+      "consoleErrors": [],
       "notes": [
         "clicked \"Download File\""
       ],
-      "loadMs": 209,
+      "loadMs": 232,
       "httpStatus": 200,
       "output": {
         "file": "sample.pdf",
         "type": "pdf",
         "bytes": 2176
       },
-      "durationMs": 3056
+      "durationMs": 3009
     },
     {
       "kind": "tool",
@@ -435,28 +419,26 @@
         {
           "endpoint": "/proxyApi/enhance-pdf-quality",
           "status": 308,
-          "ms": 68
+          "ms": 112
         },
         {
           "endpoint": "/proxyApi/enhance-pdf-quality",
           "status": 200,
-          "ms": 145
+          "ms": 123
         }
       ],
-      "consoleErrors": [
-        "Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR"
-      ],
+      "consoleErrors": [],
       "notes": [
         "clicked \"Download File\""
       ],
-      "loadMs": 150,
+      "loadMs": 195,
       "httpStatus": 200,
       "output": {
         "file": "sample.pdf",
         "type": "pdf",
         "bytes": 2176
       },
-      "durationMs": 2949
+      "durationMs": 2968
     },
     {
       "kind": "tool",
@@ -469,13 +451,11 @@
       "message": "Smoke check: page loaded and accepted the upload (interactive tool, no conversion run)",
       "attempt": 1,
       "api": [],
-      "consoleErrors": [
-        "Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR"
-      ],
+      "consoleErrors": [],
       "notes": [],
-      "loadMs": 147,
+      "loadMs": 179,
       "httpStatus": 200,
-      "durationMs": 2843
+      "durationMs": 2874
     },
     {
       "kind": "tool",
@@ -488,16 +468,14 @@
       "message": "No result after 120s (no API call was made)",
       "attempt": 2,
       "api": [],
-      "consoleErrors": [
-        "Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR"
-      ],
+      "consoleErrors": [],
       "notes": [
         "clicked \"No crop\""
       ],
-      "loadMs": 305,
+      "loadMs": 306,
       "httpStatus": 200,
       "screenshot": "artifacts/crop-pdf__fail.png",
-      "durationMs": 123750
+      "durationMs": 123786
     },
     {
       "kind": "tool",
@@ -510,21 +488,19 @@
       "message": "Valid PDF (3.1 KB)",
       "attempt": 1,
       "api": [],
-      "consoleErrors": [
-        "Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR"
-      ],
+      "consoleErrors": [],
       "notes": [
         "clicked \"Add Page Numbers\"",
         "clicked \"Download Numbered PDF\""
       ],
-      "loadMs": 386,
+      "loadMs": 190,
       "httpStatus": 200,
       "output": {
         "file": "sample_numbered.pdf",
         "type": "pdf",
         "bytes": 3220
       },
-      "durationMs": 4264
+      "durationMs": 4165
     },
     {
       "kind": "tool",
@@ -538,17 +514,26 @@
       "attempt": 1,
       "api": [],
       "consoleErrors": [
-        "Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR"
+        "Failed to load resource: the server responded with a status of 502 ()",
+        "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+        "Failed to load resource: net::ERR_CERT_COMMON_NAME_INVALID",
+        "Failed to load resource: net::ERR_CERT_COMMON_NAME_INVALID",
+        "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+        "Failed to load resource: net::ERR_CERT_COMMON_NAME_INVALID",
+        "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+        "Failed to load resource: net::ERR_CERT_COMMON_NAME_INVALID",
+        "Failed to load resource: net::ERR_CERT_COMMON_NAME_INVALID",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
       ],
       "notes": [],
-      "loadMs": 286,
+      "loadMs": 186,
       "httpStatus": 200,
       "output": {
-        "file": "09560abf-6fe0-4887-993d-aee7ee47713f.pdf",
+        "file": "aa15b38c-7c4d-4606-9970-bad284e12a89.pdf",
         "type": "pdf",
         "bytes": 2817
       },
-      "durationMs": 3607
+      "durationMs": 3489
     },
     {
       "kind": "tool",
@@ -561,21 +546,19 @@
       "message": "Valid PDF (1.9 KB)",
       "attempt": 1,
       "api": [],
-      "consoleErrors": [
-        "Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR"
-      ],
+      "consoleErrors": [],
       "notes": [
         "clicked \"Extract 2 Pages\"",
         "clicked \"Download Extracted PDF\""
       ],
-      "loadMs": 143,
+      "loadMs": 184,
       "httpStatus": 200,
       "output": {
         "file": "sample_extracted.pdf",
         "type": "pdf",
         "bytes": 1991
       },
-      "durationMs": 5281
+      "durationMs": 5327
     },
     {
       "kind": "tool",
@@ -588,21 +571,19 @@
       "message": "Valid PDF (2.8 KB)",
       "attempt": 1,
       "api": [],
-      "consoleErrors": [
-        "Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR"
-      ],
+      "consoleErrors": [],
       "notes": [
         "clicked \"Apply New Order\"",
         "clicked \"Download Organized PDF\""
       ],
-      "loadMs": 147,
+      "loadMs": 180,
       "httpStatus": 200,
       "output": {
         "file": "sample_organized.pdf",
         "type": "pdf",
         "bytes": 2841
       },
-      "durationMs": 4010
+      "durationMs": 4007
     },
     {
       "kind": "tool",
@@ -615,14 +596,12 @@
       "message": "No action button found. Visible buttons: Mark range for removal | Clear | Remove Pages",
       "attempt": 2,
       "api": [],
-      "consoleErrors": [
-        "Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR"
-      ],
+      "consoleErrors": [],
       "notes": [],
-      "loadMs": 57,
+      "loadMs": 167,
       "httpStatus": 200,
       "screenshot": "artifacts/remove-pages__fail.png",
-      "durationMs": 20707
+      "durationMs": 20760
     },
     {
       "kind": "tool",
@@ -635,21 +614,19 @@
       "message": "Valid PDF (1.9 KB)",
       "attempt": 1,
       "api": [],
-      "consoleErrors": [
-        "Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR"
-      ],
+      "consoleErrors": [],
       "notes": [
         "clicked \"Repair PDF\"",
         "clicked \"Download Repaired PDF\""
       ],
-      "loadMs": 184,
+      "loadMs": 361,
       "httpStatus": 200,
       "output": {
         "file": "sample_repaired.pdf",
         "type": "pdf",
         "bytes": 1907
       },
-      "durationMs": 3952
+      "durationMs": 4143
     },
     {
       "kind": "tool",
@@ -662,14 +639,12 @@
       "message": "No action button found. Visible buttons: Single language | Multi-language | Make PDF Searchable",
       "attempt": 2,
       "api": [],
-      "consoleErrors": [
-        "Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR"
-      ],
+      "consoleErrors": [],
       "notes": [],
-      "loadMs": 131,
+      "loadMs": 150,
       "httpStatus": 200,
       "screenshot": "artifacts/ocr-pdf__fail.png",
-      "durationMs": 21010
+      "durationMs": 21059
     },
     {
       "kind": "tool",
@@ -682,14 +657,12 @@
       "message": "No action button found. Visible buttons: Print",
       "attempt": 2,
       "api": [],
-      "consoleErrors": [
-        "Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR"
-      ],
+      "consoleErrors": [],
       "notes": [],
-      "loadMs": 282,
+      "loadMs": 342,
       "httpStatus": 200,
       "screenshot": "artifacts/html-to-pdf__fail.png",
-      "durationMs": 20175
+      "durationMs": 20225
     },
     {
       "kind": "tool",
@@ -702,20 +675,18 @@
       "message": "Valid PDF (1.4 KB)",
       "attempt": 1,
       "api": [],
-      "consoleErrors": [
-        "Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR"
-      ],
+      "consoleErrors": [],
       "notes": [
         "clicked \"Download File\""
       ],
-      "loadMs": 304,
+      "loadMs": 231,
       "httpStatus": 200,
       "output": {
         "file": "sample.pdf",
         "type": "pdf",
         "bytes": 1461
       },
-      "durationMs": 3057
+      "durationMs": 3002
     },
     {
       "kind": "tool",
@@ -728,20 +699,18 @@
       "message": "Valid PDF (1.2 KB)",
       "attempt": 1,
       "api": [],
-      "consoleErrors": [
-        "Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR"
-      ],
+      "consoleErrors": [],
       "notes": [
         "clicked \"Download File\""
       ],
-      "loadMs": 131,
+      "loadMs": 172,
       "httpStatus": 200,
       "output": {
         "file": "sample.pdf",
         "type": "pdf",
         "bytes": 1215
       },
-      "durationMs": 4897
+      "durationMs": 4945
     },
     {
       "kind": "tool",
@@ -754,20 +723,18 @@
       "message": "Valid PDF (1.4 KB)",
       "attempt": 1,
       "api": [],
-      "consoleErrors": [
-        "Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR"
-      ],
+      "consoleErrors": [],
       "notes": [
         "clicked \"Download File\""
       ],
-      "loadMs": 141,
+      "loadMs": 176,
       "httpStatus": 200,
       "output": {
         "file": "sample.pdf",
         "type": "pdf",
         "bytes": 1455
       },
-      "durationMs": 2892
+      "durationMs": 2899
     },
     {
       "kind": "tool",
@@ -780,20 +747,18 @@
       "message": "Valid PDF (1.2 KB)",
       "attempt": 1,
       "api": [],
-      "consoleErrors": [
-        "Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR"
-      ],
+      "consoleErrors": [],
       "notes": [
         "clicked \"Download File\""
       ],
-      "loadMs": 168,
+      "loadMs": 170,
       "httpStatus": 200,
       "output": {
         "file": "sample.pdf",
         "type": "pdf",
         "bytes": 1227
       },
-      "durationMs": 2923
+      "durationMs": 2900
     },
     {
       "kind": "tool",
@@ -806,21 +771,19 @@
       "message": "Valid PDF (19.3 KB)",
       "attempt": 1,
       "api": [],
-      "consoleErrors": [
-        "Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR"
-      ],
+      "consoleErrors": [],
       "notes": [
         "clicked \"Convert 2 Images to PDF\"",
         "clicked \"Download PDF\""
       ],
-      "loadMs": 134,
+      "loadMs": 173,
       "httpStatus": 200,
       "output": {
         "file": "scanned_document.pdf",
         "type": "pdf",
         "bytes": 19740
       },
-      "durationMs": 3909
+      "durationMs": 3926
     },
     {
       "kind": "tool",
@@ -833,21 +796,19 @@
       "message": "Valid PDF (16.2 KB)",
       "attempt": 1,
       "api": [],
-      "consoleErrors": [
-        "Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR"
-      ],
+      "consoleErrors": [],
       "notes": [
         "clicked \"Convert Now\"",
         "clicked \"Download File\""
       ],
-      "loadMs": 132,
+      "loadMs": 236,
       "httpStatus": 200,
       "output": {
         "file": "sample.pdf",
         "type": "pdf",
         "bytes": 16538
       },
-      "durationMs": 4139
+      "durationMs": 5023
     },
     {
       "kind": "tool",
@@ -860,20 +821,18 @@
       "message": "Valid JPG (8.2 KB)",
       "attempt": 1,
       "api": [],
-      "consoleErrors": [
-        "Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR"
-      ],
+      "consoleErrors": [],
       "notes": [
         "clicked \"Download File\""
       ],
-      "loadMs": 62,
+      "loadMs": 213,
       "httpStatus": 200,
       "output": {
         "file": "sample.jpg",
         "type": "jpg",
         "bytes": 8403
       },
-      "durationMs": 2896
+      "durationMs": 2944
     },
     {
       "kind": "tool",
@@ -886,20 +845,18 @@
       "message": "Valid PNG (15.1 KB)",
       "attempt": 1,
       "api": [],
-      "consoleErrors": [
-        "Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR"
-      ],
+      "consoleErrors": [],
       "notes": [
         "clicked \"Download File\""
       ],
-      "loadMs": 136,
+      "loadMs": 174,
       "httpStatus": 200,
       "output": {
         "file": "sample.png",
         "type": "png",
         "bytes": 15484
       },
-      "durationMs": 2900
+      "durationMs": 2927
     },
     {
       "kind": "tool",
@@ -912,20 +869,18 @@
       "message": "Valid PNG (10.8 KB)",
       "attempt": 1,
       "api": [],
-      "consoleErrors": [
-        "Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR"
-      ],
+      "consoleErrors": [],
       "notes": [
         "clicked \"Download File\""
       ],
-      "loadMs": 130,
+      "loadMs": 181,
       "httpStatus": 200,
       "output": {
         "file": "sample.png",
         "type": "png",
         "bytes": 11079
       },
-      "durationMs": 2885
+      "durationMs": 2940
     },
     {
       "kind": "tool",
@@ -938,20 +893,18 @@
       "message": "Valid JPG (6.4 KB)",
       "attempt": 1,
       "api": [],
-      "consoleErrors": [
-        "Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR"
-      ],
+      "consoleErrors": [],
       "notes": [
         "clicked \"Download File\""
       ],
-      "loadMs": 175,
+      "loadMs": 222,
       "httpStatus": 200,
       "output": {
         "file": "sample.jpg",
         "type": "jpg",
         "bytes": 6590
       },
-      "durationMs": 2939
+      "durationMs": 2932
     },
     {
       "kind": "tool",
@@ -964,20 +917,18 @@
       "message": "Valid SVG (4.4 KB)",
       "attempt": 1,
       "api": [],
-      "consoleErrors": [
-        "Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR"
-      ],
+      "consoleErrors": [],
       "notes": [
         "clicked \"Download File\""
       ],
-      "loadMs": 140,
+      "loadMs": 198,
       "httpStatus": 200,
       "output": {
         "file": "sample.svg",
         "type": "svg",
         "bytes": 4556
       },
-      "durationMs": 2945
+      "durationMs": 2957
     },
     {
       "kind": "tool",
@@ -991,7 +942,6 @@
       "attempt": 2,
       "api": [],
       "consoleErrors": [
-        "Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR",
         "Failed to load resource: the server responded with a status of 501 ()",
         "Server error: 501 {success: false, error: Complex SVG conversion not supported, message: This Lambda function only supports SVGs with embed…nvert-png-to-svg endpoint for simple conversions., suggestio",
         "Failed to load resource: the server responded with a status of 501 ()",
@@ -1000,10 +950,10 @@
       "notes": [
         "clicked \"Convert Now\""
       ],
-      "loadMs": 259,
+      "loadMs": 275,
       "httpStatus": 200,
       "screenshot": "artifacts/svg-to-png__fail.png",
-      "durationMs": 123521
+      "durationMs": 123503
     }
   ]
 }
