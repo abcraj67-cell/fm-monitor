@@ -1,11 +1,11 @@
 {
   "summary": {
-    "date": "2026-10-31T06:06:20.297Z",
+    "date": "2026-11-01T06:36:20.632Z",
     "baseUrl": "https://www.filemagics.com",
     "total": 39,
     "passed": 34,
     "failed": 5,
-    "durationSec": 860,
+    "durationSec": 718,
     "failures": [
       {
         "slug": "crop-pdf",
@@ -47,18 +47,11 @@
       "group": "Site pages",
       "url": "https://www.filemagics.com/",
       "status": "PASS",
-      "consoleErrors": [
-        "Minified React error #418; visit https://react.dev/errors/418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.",
-        "Minified React error #418; visit https://react.dev/errors/418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.",
-        "Minified React error #418; visit https://react.dev/errors/418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.",
-        "Minified React error #418; visit https://react.dev/errors/418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.",
-        "Minified React error #418; visit https://react.dev/errors/418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.",
-        "Minified React error #423; visit https://react.dev/errors/423 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
-      ],
-      "loadMs": 476,
+      "consoleErrors": [],
+      "loadMs": 240,
       "httpStatus": 200,
-      "message": "FileMagics | Free Online PDF & File Conversion Tools — 476 ms",
-      "durationMs": 545
+      "message": "FileMagics | Free Online PDF & File Conversion Tools — 240 ms",
+      "durationMs": 290
     },
     {
       "kind": "page",
@@ -68,10 +61,10 @@
       "url": "https://www.filemagics.com/blog",
       "status": "PASS",
       "consoleErrors": [],
-      "loadMs": 420,
+      "loadMs": 269,
       "httpStatus": 200,
-      "message": "FileMagics.com Blog | PDF, Image & Video How-To Guides — 420 ms",
-      "durationMs": 487
+      "message": "FileMagics.com Blog | PDF, Image & Video How-To Guides — 269 ms",
+      "durationMs": 404
     },
     {
       "kind": "page",
@@ -81,10 +74,10 @@
       "url": "https://www.filemagics.com/about-us",
       "status": "PASS",
       "consoleErrors": [],
-      "loadMs": 89,
+      "loadMs": 39,
       "httpStatus": 200,
-      "message": "About FileMagics | Free Online File Converter Tools — 89 ms",
-      "durationMs": 148
+      "message": "About FileMagics | Free Online File Converter Tools — 39 ms",
+      "durationMs": 133
     },
     {
       "kind": "page",
@@ -94,10 +87,10 @@
       "url": "https://www.filemagics.com/contact-us",
       "status": "PASS",
       "consoleErrors": [],
-      "loadMs": 89,
+      "loadMs": 119,
       "httpStatus": 200,
-      "message": "Contact FileMagics | Get Support for File Conversion — 89 ms",
-      "durationMs": 147
+      "message": "Contact FileMagics | Get Support for File Conversion — 119 ms",
+      "durationMs": 158
     },
     {
       "kind": "page",
@@ -107,10 +100,10 @@
       "url": "https://www.filemagics.com/faq",
       "status": "PASS",
       "consoleErrors": [],
-      "loadMs": 102,
+      "loadMs": 45,
       "httpStatus": 200,
-      "message": "FAQ | Questions About File Conversion — 102 ms",
-      "durationMs": 159
+      "message": "FAQ | Questions About File Conversion — 45 ms",
+      "durationMs": 154
     },
     {
       "kind": "page",
@@ -120,10 +113,10 @@
       "url": "https://www.filemagics.com/privacy-policy",
       "status": "PASS",
       "consoleErrors": [],
-      "loadMs": 179,
+      "loadMs": 41,
       "httpStatus": 200,
-      "message": "Privacy Policy | How We Protect Your Data — 179 ms",
-      "durationMs": 214
+      "message": "Privacy Policy | How We Protect Your Data — 41 ms",
+      "durationMs": 128
     },
     {
       "kind": "page",
@@ -133,10 +126,10 @@
       "url": "https://www.filemagics.com/terms-conditions",
       "status": "PASS",
       "consoleErrors": [],
-      "loadMs": 150,
+      "loadMs": 43,
       "httpStatus": 200,
-      "message": "Terms & Conditions | File Conversion Services — 150 ms",
-      "durationMs": 205
+      "message": "Terms & Conditions | File Conversion Services — 43 ms",
+      "durationMs": 133
     },
     {
       "kind": "page",
@@ -146,10 +139,10 @@
       "url": "https://www.filemagics.com/support-us",
       "status": "PASS",
       "consoleErrors": [],
-      "loadMs": 92,
+      "loadMs": 53,
       "httpStatus": 200,
-      "message": "Support FileMagics.com | Help Keep Free Tools Running — 92 ms",
-      "durationMs": 149
+      "message": "Support FileMagics.com | Help Keep Free Tools Running — 53 ms",
+      "durationMs": 165
     },
     {
       "kind": "tool",
@@ -165,26 +158,26 @@
         {
           "endpoint": "/proxyApi/convert-pdf-to-docx",
           "status": 308,
-          "ms": 115
+          "ms": 133
         },
         {
           "endpoint": "/proxyApi/convert-pdf-to-docx",
           "status": 200,
-          "ms": 2994
+          "ms": 314
         }
       ],
       "consoleErrors": [],
       "notes": [
         "clicked \"Download File\""
       ],
-      "loadMs": 201,
+      "loadMs": 168,
       "httpStatus": 200,
       "output": {
         "file": "sample.docx",
         "type": "docx",
         "bytes": 36733
       },
-      "durationMs": 3934
+      "durationMs": 2976
     },
     {
       "kind": "tool",
@@ -200,26 +193,26 @@
         {
           "endpoint": "/proxyApi/convert-pdf-to-excel-file",
           "status": 308,
-          "ms": 130
+          "ms": 140
         },
         {
           "endpoint": "/proxyApi/convert-pdf-to-excel-file",
           "status": 200,
-          "ms": 304
+          "ms": 264
         }
       ],
       "consoleErrors": [],
       "notes": [
         "clicked \"Download File\""
       ],
-      "loadMs": 41,
+      "loadMs": 129,
       "httpStatus": 200,
       "output": {
         "file": "sample.xlsx",
         "type": "xlsx",
         "bytes": 4983
       },
-      "durationMs": 2840
+      "durationMs": 2955
     },
     {
       "kind": "tool",
@@ -237,14 +230,14 @@
         "clicked \"Convert to PowerPoint\"",
         "clicked \"Download PowerPoint\""
       ],
-      "loadMs": 110,
+      "loadMs": 162,
       "httpStatus": 200,
       "output": {
         "file": "sample.pptx",
         "type": "pptx",
         "bytes": 99199
       },
-      "durationMs": 6868
+      "durationMs": 6933
     },
     {
       "kind": "tool",
@@ -262,14 +255,14 @@
         "clicked \"Convert to PDF/A-2b\"",
         "clicked \"Download PDF/A\""
       ],
-      "loadMs": 110,
+      "loadMs": 118,
       "httpStatus": 200,
       "output": {
         "file": "sample_pdfa.pdf",
         "type": "pdf",
         "bytes": 3041
       },
-      "durationMs": 3876
+      "durationMs": 3870
     },
     {
       "kind": "tool",
@@ -285,26 +278,26 @@
         {
           "endpoint": "/proxyApi/convert-pdf-to-text-file",
           "status": 308,
-          "ms": 117
+          "ms": 110
         },
         {
           "endpoint": "/proxyApi/convert-pdf-to-text-file",
           "status": 200,
-          "ms": 2567
+          "ms": 153
         }
       ],
       "consoleErrors": [],
       "notes": [
         "clicked \"Download File\""
       ],
-      "loadMs": 230,
+      "loadMs": 43,
       "httpStatus": 200,
       "output": {
         "file": "sample.txt",
         "type": "txt",
         "bytes": 336
       },
-      "durationMs": 3970
+      "durationMs": 3757
     },
     {
       "kind": "tool",
@@ -320,26 +313,26 @@
         {
           "endpoint": "/proxyApi/convert-pdf-to-image",
           "status": 308,
-          "ms": 128
+          "ms": 248
         },
         {
           "endpoint": "/proxyApi/convert-pdf-to-image",
           "status": 200,
-          "ms": 791
+          "ms": 663
         }
       ],
       "consoleErrors": [],
       "notes": [
         "clicked \"Download File\""
       ],
-      "loadMs": 117,
+      "loadMs": 114,
       "httpStatus": 200,
       "output": {
         "file": "sample.png",
         "type": "png",
         "bytes": 35718
       },
-      "durationMs": 2830
+      "durationMs": 2984
     },
     {
       "kind": "tool",
@@ -355,12 +348,12 @@
         {
           "endpoint": "/proxyApi/merge-pdfs",
           "status": 308,
-          "ms": 90
+          "ms": 99
         },
         {
           "endpoint": "/proxyApi/merge-pdfs",
           "status": 200,
-          "ms": 139
+          "ms": 145
         }
       ],
       "consoleErrors": [],
@@ -368,14 +361,14 @@
         "clicked \"Convert Now\"",
         "clicked \"Download File\""
       ],
-      "loadMs": 324,
+      "loadMs": 112,
       "httpStatus": 200,
       "output": {
         "file": "sample.pdf",
         "type": "pdf",
         "bytes": 3874
       },
-      "durationMs": 4059
+      "durationMs": 3925
     },
     {
       "kind": "tool",
@@ -391,26 +384,26 @@
         {
           "endpoint": "/proxyApi/compress-pdf",
           "status": 308,
-          "ms": 185
+          "ms": 132
         },
         {
           "endpoint": "/proxyApi/compress-pdf",
           "status": 200,
-          "ms": 344
+          "ms": 147
         }
       ],
       "consoleErrors": [],
       "notes": [
         "clicked \"Download File\""
       ],
-      "loadMs": 110,
+      "loadMs": 117,
       "httpStatus": 200,
       "output": {
         "file": "sample.pdf",
         "type": "pdf",
         "bytes": 2176
       },
-      "durationMs": 2785
+      "durationMs": 2925
     },
     {
       "kind": "tool",
@@ -426,26 +419,26 @@
         {
           "endpoint": "/proxyApi/enhance-pdf-quality",
           "status": 308,
-          "ms": 105
+          "ms": 103
         },
         {
           "endpoint": "/proxyApi/enhance-pdf-quality",
           "status": 200,
-          "ms": 313
+          "ms": 172
         }
       ],
       "consoleErrors": [],
       "notes": [
         "clicked \"Download File\""
       ],
-      "loadMs": 116,
+      "loadMs": 109,
       "httpStatus": 200,
       "output": {
         "file": "sample.pdf",
         "type": "pdf",
         "bytes": 2176
       },
-      "durationMs": 2904
+      "durationMs": 2878
     },
     {
       "kind": "tool",
@@ -460,9 +453,9 @@
       "api": [],
       "consoleErrors": [],
       "notes": [],
-      "loadMs": 35,
+      "loadMs": 132,
       "httpStatus": 200,
-      "durationMs": 2784
+      "durationMs": 2819
     },
     {
       "kind": "tool",
@@ -479,10 +472,10 @@
       "notes": [
         "clicked \"No crop\""
       ],
-      "loadMs": 214,
+      "loadMs": 181,
       "httpStatus": 200,
       "screenshot": "artifacts/crop-pdf__fail.png",
-      "durationMs": 123506
+      "durationMs": 123649
     },
     {
       "kind": "tool",
@@ -500,14 +493,14 @@
         "clicked \"Add Page Numbers\"",
         "clicked \"Download Numbered PDF\""
       ],
-      "loadMs": 250,
+      "loadMs": 160,
       "httpStatus": 200,
       "output": {
         "file": "sample_numbered.pdf",
         "type": "pdf",
         "bytes": 3220
       },
-      "durationMs": 4036
+      "durationMs": 4046
     },
     {
       "kind": "tool",
@@ -522,14 +515,14 @@
       "api": [],
       "consoleErrors": [],
       "notes": [],
-      "loadMs": 117,
+      "loadMs": 49,
       "httpStatus": 200,
       "output": {
-        "file": "72b35271-7e59-4ced-8895-a1ca9cb3f7ea.pdf",
+        "file": "a8fe714a-cc05-4c30-9f4c-872c4617ff60.pdf",
         "type": "pdf",
         "bytes": 2817
       },
-      "durationMs": 3435
+      "durationMs": 3411
     },
     {
       "kind": "tool",
@@ -547,14 +540,14 @@
         "clicked \"Extract 2 Pages\"",
         "clicked \"Download Extracted PDF\""
       ],
-      "loadMs": 171,
+      "loadMs": 46,
       "httpStatus": 200,
       "output": {
         "file": "sample_extracted.pdf",
         "type": "pdf",
         "bytes": 1991
       },
-      "durationMs": 5248
+      "durationMs": 7011
     },
     {
       "kind": "tool",
@@ -572,14 +565,14 @@
         "clicked \"Apply New Order\"",
         "clicked \"Download Organized PDF\""
       ],
-      "loadMs": 199,
+      "loadMs": 39,
       "httpStatus": 200,
       "output": {
         "file": "sample_organized.pdf",
         "type": "pdf",
         "bytes": 2841
       },
-      "durationMs": 3927
+      "durationMs": 3937
     },
     {
       "kind": "tool",
@@ -594,10 +587,10 @@
       "api": [],
       "consoleErrors": [],
       "notes": [],
-      "loadMs": 36,
+      "loadMs": 41,
       "httpStatus": 200,
       "screenshot": "artifacts/remove-pages__fail.png",
-      "durationMs": 20579
+      "durationMs": 20728
     },
     {
       "kind": "tool",
@@ -615,14 +608,14 @@
         "clicked \"Repair PDF\"",
         "clicked \"Download Repaired PDF\""
       ],
-      "loadMs": 109,
+      "loadMs": 39,
       "httpStatus": 200,
       "output": {
         "file": "sample_repaired.pdf",
         "type": "pdf",
         "bytes": 1907
       },
-      "durationMs": 3831
+      "durationMs": 3874
     },
     {
       "kind": "tool",
@@ -637,10 +630,10 @@
       "api": [],
       "consoleErrors": [],
       "notes": [],
-      "loadMs": 87,
+      "loadMs": 119,
       "httpStatus": 200,
       "screenshot": "artifacts/ocr-pdf__fail.png",
-      "durationMs": 21027
+      "durationMs": 21101
     },
     {
       "kind": "tool",
@@ -658,7 +651,7 @@
       "loadMs": 162,
       "httpStatus": 200,
       "screenshot": "artifacts/html-to-pdf__fail.png",
-      "durationMs": 21026
+      "durationMs": 21170
     },
     {
       "kind": "tool",
@@ -675,14 +668,14 @@
       "notes": [
         "clicked \"Download File\""
       ],
-      "loadMs": 109,
+      "loadMs": 39,
       "httpStatus": 200,
       "output": {
         "file": "sample.pdf",
         "type": "pdf",
         "bytes": 1461
       },
-      "durationMs": 2792
+      "durationMs": 2881
     },
     {
       "kind": "tool",
@@ -699,14 +692,14 @@
       "notes": [
         "clicked \"Download File\""
       ],
-      "loadMs": 106,
+      "loadMs": 44,
       "httpStatus": 200,
       "output": {
         "file": "sample.pdf",
         "type": "pdf",
         "bytes": 1215
       },
-      "durationMs": 4827
+      "durationMs": 4879
     },
     {
       "kind": "tool",
@@ -717,21 +710,20 @@
       "status": "PASS",
       "stage": "done",
       "message": "Valid PDF (1.4 KB)",
-      "attempt": 2,
+      "attempt": 1,
       "api": [],
       "consoleErrors": [],
       "notes": [
         "clicked \"Download File\""
       ],
-      "loadMs": 165,
+      "loadMs": 154,
       "httpStatus": 200,
       "output": {
         "file": "sample.pdf",
         "type": "pdf",
         "bytes": 1455
       },
-      "durationMs": 2869,
-      "flaky": true
+      "durationMs": 2879
     },
     {
       "kind": "tool",
@@ -748,14 +740,14 @@
       "notes": [
         "clicked \"Download File\""
       ],
-      "loadMs": 203,
+      "loadMs": 42,
       "httpStatus": 200,
       "output": {
         "file": "sample.pdf",
         "type": "pdf",
         "bytes": 1227
       },
-      "durationMs": 2875
+      "durationMs": 2863
     },
     {
       "kind": "tool",
@@ -766,22 +758,21 @@
       "status": "PASS",
       "stage": "done",
       "message": "Valid PDF (19.3 KB)",
-      "attempt": 2,
+      "attempt": 1,
       "api": [],
       "consoleErrors": [],
       "notes": [
         "clicked \"Convert 2 Images to PDF\"",
         "clicked \"Download PDF\""
       ],
-      "loadMs": 39,
+      "loadMs": 139,
       "httpStatus": 200,
       "output": {
         "file": "scanned_document.pdf",
         "type": "pdf",
         "bytes": 19740
       },
-      "durationMs": 4793,
-      "flaky": true
+      "durationMs": 3899
     },
     {
       "kind": "tool",
@@ -799,14 +790,14 @@
         "clicked \"Convert Now\"",
         "clicked \"Download File\""
       ],
-      "loadMs": 109,
+      "loadMs": 106,
       "httpStatus": 200,
       "output": {
         "file": "sample.pdf",
         "type": "pdf",
         "bytes": 16538
       },
-      "durationMs": 4835
+      "durationMs": 4892
     },
     {
       "kind": "tool",
@@ -823,14 +814,14 @@
       "notes": [
         "clicked \"Download File\""
       ],
-      "loadMs": 224,
+      "loadMs": 108,
       "httpStatus": 200,
       "output": {
         "file": "sample.jpg",
         "type": "jpg",
         "bytes": 8403
       },
-      "durationMs": 2910
+      "durationMs": 2871
     },
     {
       "kind": "tool",
@@ -847,14 +838,14 @@
       "notes": [
         "clicked \"Download File\""
       ],
-      "loadMs": 133,
+      "loadMs": 43,
       "httpStatus": 200,
       "output": {
         "file": "sample.png",
         "type": "png",
         "bytes": 15484
       },
-      "durationMs": 2808
+      "durationMs": 2884
     },
     {
       "kind": "tool",
@@ -871,14 +862,14 @@
       "notes": [
         "clicked \"Download File\""
       ],
-      "loadMs": 113,
+      "loadMs": 38,
       "httpStatus": 200,
       "output": {
         "file": "sample.png",
         "type": "png",
         "bytes": 11079
       },
-      "durationMs": 2810
+      "durationMs": 2862
     },
     {
       "kind": "tool",
@@ -895,14 +886,14 @@
       "notes": [
         "clicked \"Download File\""
       ],
-      "loadMs": 112,
+      "loadMs": 43,
       "httpStatus": 200,
       "output": {
         "file": "sample.jpg",
         "type": "jpg",
         "bytes": 6590
       },
-      "durationMs": 2877
+      "durationMs": 2848
     },
     {
       "kind": "tool",
@@ -919,14 +910,14 @@
       "notes": [
         "clicked \"Download File\""
       ],
-      "loadMs": 107,
+      "loadMs": 117,
       "httpStatus": 200,
       "output": {
         "file": "sample.svg",
         "type": "svg",
         "bytes": 4556
       },
-      "durationMs": 2777
+      "durationMs": 2886
     },
     {
       "kind": "tool",
@@ -948,10 +939,10 @@
       "notes": [
         "clicked \"Convert Now\""
       ],
-      "loadMs": 206,
+      "loadMs": 222,
       "httpStatus": 200,
       "screenshot": "artifacts/svg-to-png__fail.png",
-      "durationMs": 123356
+      "durationMs": 123500
     }
   ]
 }
