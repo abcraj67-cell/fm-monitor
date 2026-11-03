@@ -1,0 +1,949 @@
+{
+  "summary": {
+    "date": "2026-11-03T07:06:14.139Z",
+    "baseUrl": "https://www.filemagics.com",
+    "total": 39,
+    "passed": 34,
+    "failed": 5,
+    "durationSec": 844,
+    "failures": [
+      {
+        "slug": "crop-pdf",
+        "name": "Crop PDF",
+        "stage": "processing",
+        "message": "No result after 120s (no API call was made)"
+      },
+      {
+        "slug": "remove-pages",
+        "name": "Remove Pages",
+        "stage": "processing",
+        "message": "No action button found. Visible buttons: Mark range for removal | Clear | Remove Pages"
+      },
+      {
+        "slug": "ocr-pdf",
+        "name": "OCR PDF",
+        "stage": "processing",
+        "message": "No action button found. Visible buttons: Single language | Multi-language | Make PDF Searchable"
+      },
+      {
+        "slug": "html-to-pdf",
+        "name": "HTML to PDF",
+        "stage": "processing",
+        "message": "No action button found. Visible buttons: Print"
+      },
+      {
+        "slug": "svg-to-png",
+        "name": "SVG to PNG",
+        "stage": "processing",
+        "message": "No result after 120s (no API call was made)"
+      }
+    ]
+  },
+  "results": [
+    {
+      "kind": "page",
+      "slug": "/",
+      "name": "Home page",
+      "group": "Site pages",
+      "url": "https://www.filemagics.com/",
+      "status": "PASS",
+      "consoleErrors": [],
+      "loadMs": 375,
+      "httpStatus": 200,
+      "message": "FileMagics | Free Online PDF & File Conversion Tools — 375 ms",
+      "durationMs": 408
+    },
+    {
+      "kind": "page",
+      "slug": "/blog",
+      "name": "Blog",
+      "group": "Site pages",
+      "url": "https://www.filemagics.com/blog",
+      "status": "PASS",
+      "consoleErrors": [],
+      "loadMs": 354,
+      "httpStatus": 200,
+      "message": "FileMagics.com Blog | PDF, Image & Video How-To Guides — 354 ms",
+      "durationMs": 384
+    },
+    {
+      "kind": "page",
+      "slug": "/about-us",
+      "name": "About us",
+      "group": "Site pages",
+      "url": "https://www.filemagics.com/about-us",
+      "status": "PASS",
+      "consoleErrors": [],
+      "loadMs": 211,
+      "httpStatus": 200,
+      "message": "About FileMagics | Free Online File Converter Tools — 211 ms",
+      "durationMs": 242
+    },
+    {
+      "kind": "page",
+      "slug": "/contact-us",
+      "name": "Contact us",
+      "group": "Site pages",
+      "url": "https://www.filemagics.com/contact-us",
+      "status": "PASS",
+      "consoleErrors": [],
+      "loadMs": 224,
+      "httpStatus": 200,
+      "message": "Contact FileMagics | Get Support for File Conversion — 224 ms",
+      "durationMs": 258
+    },
+    {
+      "kind": "page",
+      "slug": "/faq",
+      "name": "FAQ",
+      "group": "Site pages",
+      "url": "https://www.filemagics.com/faq",
+      "status": "PASS",
+      "consoleErrors": [],
+      "loadMs": 274,
+      "httpStatus": 200,
+      "message": "FAQ | Questions About File Conversion — 274 ms",
+      "durationMs": 313
+    },
+    {
+      "kind": "page",
+      "slug": "/privacy-policy",
+      "name": "Privacy policy",
+      "group": "Site pages",
+      "url": "https://www.filemagics.com/privacy-policy",
+      "status": "PASS",
+      "consoleErrors": [],
+      "loadMs": 178,
+      "httpStatus": 200,
+      "message": "Privacy Policy | How We Protect Your Data — 178 ms",
+      "durationMs": 217
+    },
+    {
+      "kind": "page",
+      "slug": "/terms-conditions",
+      "name": "Terms & conditions",
+      "group": "Site pages",
+      "url": "https://www.filemagics.com/terms-conditions",
+      "status": "PASS",
+      "consoleErrors": [],
+      "loadMs": 194,
+      "httpStatus": 200,
+      "message": "Terms & Conditions | File Conversion Services — 194 ms",
+      "durationMs": 231
+    },
+    {
+      "kind": "page",
+      "slug": "/support-us",
+      "name": "Support us",
+      "group": "Site pages",
+      "url": "https://www.filemagics.com/support-us",
+      "status": "PASS",
+      "consoleErrors": [],
+      "loadMs": 270,
+      "httpStatus": 200,
+      "message": "Support FileMagics.com | Help Keep Free Tools Running — 270 ms",
+      "durationMs": 300
+    },
+    {
+      "kind": "tool",
+      "slug": "pdf-to-doc",
+      "name": "PDF to Word",
+      "group": "PDF Tools",
+      "url": "https://www.filemagics.com/pdf-to-doc",
+      "status": "PASS",
+      "stage": "done",
+      "message": "Valid DOCX (35.9 KB)",
+      "attempt": 1,
+      "api": [
+        {
+          "endpoint": "/proxyApi/convert-pdf-to-docx",
+          "status": 308,
+          "ms": 81
+        },
+        {
+          "endpoint": "/proxyApi/convert-pdf-to-docx",
+          "status": 200,
+          "ms": 393
+        }
+      ],
+      "consoleErrors": [],
+      "notes": [
+        "clicked \"Download File\""
+      ],
+      "loadMs": 278,
+      "httpStatus": 200,
+      "output": {
+        "file": "sample.docx",
+        "type": "docx",
+        "bytes": 36733
+      },
+      "durationMs": 2992
+    },
+    {
+      "kind": "tool",
+      "slug": "pdf-to-excel",
+      "name": "PDF to Excel",
+      "group": "PDF Tools",
+      "url": "https://www.filemagics.com/pdf-to-excel",
+      "status": "PASS",
+      "stage": "done",
+      "message": "Valid XLSX (4.9 KB)",
+      "attempt": 1,
+      "api": [
+        {
+          "endpoint": "/proxyApi/convert-pdf-to-excel-file",
+          "status": 308,
+          "ms": 92
+        },
+        {
+          "endpoint": "/proxyApi/convert-pdf-to-excel-file",
+          "status": 200,
+          "ms": 252
+        }
+      ],
+      "consoleErrors": [],
+      "notes": [
+        "clicked \"Download File\""
+      ],
+      "loadMs": 209,
+      "httpStatus": 200,
+      "output": {
+        "file": "sample.xlsx",
+        "type": "xlsx",
+        "bytes": 4983
+      },
+      "durationMs": 2876
+    },
+    {
+      "kind": "tool",
+      "slug": "pdf-to-ppt",
+      "name": "PDF to PowerPoint",
+      "group": "PDF Tools",
+      "url": "https://www.filemagics.com/pdf-to-ppt",
+      "status": "PASS",
+      "stage": "done",
+      "message": "Valid PPTX (96.9 KB)",
+      "attempt": 1,
+      "api": [],
+      "consoleErrors": [],
+      "notes": [
+        "clicked \"Convert to PowerPoint\"",
+        "clicked \"Download PowerPoint\""
+      ],
+      "loadMs": 234,
+      "httpStatus": 200,
+      "output": {
+        "file": "sample.pptx",
+        "type": "pptx",
+        "bytes": 99199
+      },
+      "durationMs": 7157
+    },
+    {
+      "kind": "tool",
+      "slug": "pdf-to-pdfa",
+      "name": "PDF to PDF/A",
+      "group": "PDF Tools",
+      "url": "https://www.filemagics.com/pdf-to-pdfa",
+      "status": "PASS",
+      "stage": "done",
+      "message": "Valid PDF (3.0 KB)",
+      "attempt": 1,
+      "api": [],
+      "consoleErrors": [],
+      "notes": [
+        "clicked \"Convert to PDF/A-2b\"",
+        "clicked \"Download PDF/A\""
+      ],
+      "loadMs": 235,
+      "httpStatus": 200,
+      "output": {
+        "file": "sample_pdfa.pdf",
+        "type": "pdf",
+        "bytes": 3041
+      },
+      "durationMs": 4009
+    },
+    {
+      "kind": "tool",
+      "slug": "pdf-to-text",
+      "name": "PDF to Text",
+      "group": "PDF Tools",
+      "url": "https://www.filemagics.com/pdf-to-text",
+      "status": "PASS",
+      "stage": "done",
+      "message": "Valid TXT (336 B)",
+      "attempt": 1,
+      "api": [
+        {
+          "endpoint": "/proxyApi/convert-pdf-to-text-file",
+          "status": 308,
+          "ms": 93
+        },
+        {
+          "endpoint": "/proxyApi/convert-pdf-to-text-file",
+          "status": 200,
+          "ms": 150
+        }
+      ],
+      "consoleErrors": [],
+      "notes": [
+        "clicked \"Download File\""
+      ],
+      "loadMs": 200,
+      "httpStatus": 200,
+      "output": {
+        "file": "sample.txt",
+        "type": "txt",
+        "bytes": 336
+      },
+      "durationMs": 3765
+    },
+    {
+      "kind": "tool",
+      "slug": "pdf-to-image",
+      "name": "PDF to Image",
+      "group": "PDF Tools",
+      "url": "https://www.filemagics.com/pdf-to-image",
+      "status": "PASS",
+      "stage": "done",
+      "message": "Valid PNG (34.9 KB)",
+      "attempt": 1,
+      "api": [
+        {
+          "endpoint": "/proxyApi/convert-pdf-to-image",
+          "status": 308,
+          "ms": 84
+        },
+        {
+          "endpoint": "/proxyApi/convert-pdf-to-image",
+          "status": 200,
+          "ms": 434
+        }
+      ],
+      "consoleErrors": [],
+      "notes": [
+        "clicked \"Download File\""
+      ],
+      "loadMs": 216,
+      "httpStatus": 200,
+      "output": {
+        "file": "sample.png",
+        "type": "png",
+        "bytes": 35718
+      },
+      "durationMs": 2877
+    },
+    {
+      "kind": "tool",
+      "slug": "merge-pdf",
+      "name": "Merge PDF",
+      "group": "PDF Tools",
+      "url": "https://www.filemagics.com/merge-pdf",
+      "status": "PASS",
+      "stage": "done",
+      "message": "Valid PDF (3.8 KB)",
+      "attempt": 1,
+      "api": [
+        {
+          "endpoint": "/proxyApi/merge-pdfs",
+          "status": 308,
+          "ms": 87
+        },
+        {
+          "endpoint": "/proxyApi/merge-pdfs",
+          "status": 200,
+          "ms": 124
+        }
+      ],
+      "consoleErrors": [],
+      "notes": [
+        "clicked \"Convert Now\"",
+        "clicked \"Download File\""
+      ],
+      "loadMs": 320,
+      "httpStatus": 200,
+      "output": {
+        "file": "sample.pdf",
+        "type": "pdf",
+        "bytes": 3874
+      },
+      "durationMs": 4028
+    },
+    {
+      "kind": "tool",
+      "slug": "compress-pdf",
+      "name": "Compress PDF",
+      "group": "PDF Tools",
+      "url": "https://www.filemagics.com/compress-pdf",
+      "status": "PASS",
+      "stage": "done",
+      "message": "Valid PDF (2.1 KB)",
+      "attempt": 2,
+      "api": [
+        {
+          "endpoint": "/proxyApi/compress-pdf",
+          "status": 308,
+          "ms": 82
+        },
+        {
+          "endpoint": "/proxyApi/compress-pdf",
+          "status": 200,
+          "ms": 127
+        }
+      ],
+      "consoleErrors": [],
+      "notes": [
+        "clicked \"Download File\""
+      ],
+      "loadMs": 241,
+      "httpStatus": 200,
+      "output": {
+        "file": "sample.pdf",
+        "type": "pdf",
+        "bytes": 2176
+      },
+      "durationMs": 2871,
+      "flaky": true
+    },
+    {
+      "kind": "tool",
+      "slug": "enhance-pdf-quality",
+      "name": "Enhance PDF Quality",
+      "group": "PDF Tools",
+      "url": "https://www.filemagics.com/enhance-pdf-quality",
+      "status": "PASS",
+      "stage": "done",
+      "message": "Valid PDF (2.1 KB)",
+      "attempt": 1,
+      "api": [
+        {
+          "endpoint": "/proxyApi/enhance-pdf-quality",
+          "status": 308,
+          "ms": 72
+        },
+        {
+          "endpoint": "/proxyApi/enhance-pdf-quality",
+          "status": 200,
+          "ms": 115
+        }
+      ],
+      "consoleErrors": [],
+      "notes": [
+        "clicked \"Download File\""
+      ],
+      "loadMs": 124,
+      "httpStatus": 200,
+      "output": {
+        "file": "sample.pdf",
+        "type": "pdf",
+        "bytes": 2176
+      },
+      "durationMs": 2794
+    },
+    {
+      "kind": "tool",
+      "slug": "edit-pdf",
+      "name": "Edit PDF",
+      "group": "PDF Tools",
+      "url": "https://www.filemagics.com/edit-pdf",
+      "status": "PASS",
+      "stage": "done",
+      "message": "Smoke check: page loaded and accepted the upload (interactive tool, no conversion run)",
+      "attempt": 1,
+      "api": [],
+      "consoleErrors": [],
+      "notes": [],
+      "loadMs": 134,
+      "httpStatus": 200,
+      "durationMs": 2762
+    },
+    {
+      "kind": "tool",
+      "slug": "crop-pdf",
+      "name": "Crop PDF",
+      "group": "PDF Tools",
+      "url": "https://www.filemagics.com/crop-pdf",
+      "status": "FAIL",
+      "stage": "processing",
+      "message": "No result after 120s (no API call was made)",
+      "attempt": 2,
+      "api": [],
+      "consoleErrors": [],
+      "notes": [
+        "clicked \"No crop\""
+      ],
+      "loadMs": 243,
+      "httpStatus": 200,
+      "screenshot": "artifacts/crop-pdf__fail.png",
+      "durationMs": 123441
+    },
+    {
+      "kind": "tool",
+      "slug": "add-page-numbers",
+      "name": "Add Page Numbers",
+      "group": "PDF Tools",
+      "url": "https://www.filemagics.com/add-page-numbers",
+      "status": "PASS",
+      "stage": "done",
+      "message": "Valid PDF (3.1 KB)",
+      "attempt": 1,
+      "api": [],
+      "consoleErrors": [],
+      "notes": [
+        "clicked \"Add Page Numbers\"",
+        "clicked \"Download Numbered PDF\""
+      ],
+      "loadMs": 626,
+      "httpStatus": 200,
+      "output": {
+        "file": "sample_numbered.pdf",
+        "type": "pdf",
+        "bytes": 3220
+      },
+      "durationMs": 6628
+    },
+    {
+      "kind": "tool",
+      "slug": "rotate-pdf",
+      "name": "Rotate PDF",
+      "group": "PDF Tools",
+      "url": "https://www.filemagics.com/rotate-pdf",
+      "status": "PASS",
+      "stage": "done",
+      "message": "Valid PDF (2.8 KB)",
+      "attempt": 1,
+      "api": [],
+      "consoleErrors": [],
+      "notes": [],
+      "loadMs": 136,
+      "httpStatus": 200,
+      "output": {
+        "file": "679fcc5d-9b3e-4681-b059-a607c6ab2b39.pdf",
+        "type": "pdf",
+        "bytes": 2817
+      },
+      "durationMs": 3422
+    },
+    {
+      "kind": "tool",
+      "slug": "extract-pages",
+      "name": "Extract Pages",
+      "group": "PDF Tools",
+      "url": "https://www.filemagics.com/extract-pages",
+      "status": "PASS",
+      "stage": "done",
+      "message": "Valid PDF (1.9 KB)",
+      "attempt": 1,
+      "api": [],
+      "consoleErrors": [],
+      "notes": [
+        "clicked \"Extract 2 Pages\"",
+        "clicked \"Download Extracted PDF\""
+      ],
+      "loadMs": 152,
+      "httpStatus": 200,
+      "output": {
+        "file": "sample_extracted.pdf",
+        "type": "pdf",
+        "bytes": 1991
+      },
+      "durationMs": 5199
+    },
+    {
+      "kind": "tool",
+      "slug": "organize-pdf",
+      "name": "Organize PDF",
+      "group": "PDF Tools",
+      "url": "https://www.filemagics.com/organize-pdf",
+      "status": "PASS",
+      "stage": "done",
+      "message": "Valid PDF (2.8 KB)",
+      "attempt": 1,
+      "api": [],
+      "consoleErrors": [],
+      "notes": [
+        "clicked \"Apply New Order\"",
+        "clicked \"Download Organized PDF\""
+      ],
+      "loadMs": 145,
+      "httpStatus": 200,
+      "output": {
+        "file": "sample_organized.pdf",
+        "type": "pdf",
+        "bytes": 2841
+      },
+      "durationMs": 3907
+    },
+    {
+      "kind": "tool",
+      "slug": "remove-pages",
+      "name": "Remove Pages",
+      "group": "PDF Tools",
+      "url": "https://www.filemagics.com/remove-pages",
+      "status": "FAIL",
+      "stage": "processing",
+      "message": "No action button found. Visible buttons: Mark range for removal | Clear | Remove Pages",
+      "attempt": 2,
+      "api": [],
+      "consoleErrors": [],
+      "notes": [],
+      "loadMs": 138,
+      "httpStatus": 200,
+      "screenshot": "artifacts/remove-pages__fail.png",
+      "durationMs": 20580
+    },
+    {
+      "kind": "tool",
+      "slug": "repair-pdf",
+      "name": "Repair PDF",
+      "group": "PDF Tools",
+      "url": "https://www.filemagics.com/repair-pdf",
+      "status": "PASS",
+      "stage": "done",
+      "message": "Valid PDF (1.9 KB)",
+      "attempt": 1,
+      "api": [],
+      "consoleErrors": [],
+      "notes": [
+        "clicked \"Repair PDF\"",
+        "clicked \"Download Repaired PDF\""
+      ],
+      "loadMs": 392,
+      "httpStatus": 200,
+      "output": {
+        "file": "sample_repaired.pdf",
+        "type": "pdf",
+        "bytes": 1907
+      },
+      "durationMs": 4131
+    },
+    {
+      "kind": "tool",
+      "slug": "ocr-pdf",
+      "name": "OCR PDF",
+      "group": "PDF Tools",
+      "url": "https://www.filemagics.com/ocr-pdf",
+      "status": "FAIL",
+      "stage": "processing",
+      "message": "No action button found. Visible buttons: Single language | Multi-language | Make PDF Searchable",
+      "attempt": 2,
+      "api": [],
+      "consoleErrors": [],
+      "notes": [],
+      "loadMs": 138,
+      "httpStatus": 200,
+      "screenshot": "artifacts/ocr-pdf__fail.png",
+      "durationMs": 20962
+    },
+    {
+      "kind": "tool",
+      "slug": "html-to-pdf",
+      "name": "HTML to PDF",
+      "group": "Document Tools",
+      "url": "https://www.filemagics.com/html-to-pdf",
+      "status": "FAIL",
+      "stage": "processing",
+      "message": "No action button found. Visible buttons: Print",
+      "attempt": 2,
+      "api": [],
+      "consoleErrors": [],
+      "notes": [],
+      "loadMs": 259,
+      "httpStatus": 200,
+      "screenshot": "artifacts/html-to-pdf__fail.png",
+      "durationMs": 21016
+    },
+    {
+      "kind": "tool",
+      "slug": "docs-to-pdf",
+      "name": "Word to PDF",
+      "group": "Document Tools",
+      "url": "https://www.filemagics.com/docs-to-pdf",
+      "status": "PASS",
+      "stage": "done",
+      "message": "Valid PDF (1.4 KB)",
+      "attempt": 1,
+      "api": [],
+      "consoleErrors": [],
+      "notes": [
+        "clicked \"Download File\""
+      ],
+      "loadMs": 125,
+      "httpStatus": 200,
+      "output": {
+        "file": "sample.pdf",
+        "type": "pdf",
+        "bytes": 1461
+      },
+      "durationMs": 5823
+    },
+    {
+      "kind": "tool",
+      "slug": "excel-to-pdf",
+      "name": "Excel to PDF",
+      "group": "Document Tools",
+      "url": "https://www.filemagics.com/excel-to-pdf",
+      "status": "PASS",
+      "stage": "done",
+      "message": "Valid PDF (1.2 KB)",
+      "attempt": 1,
+      "api": [],
+      "consoleErrors": [],
+      "notes": [
+        "clicked \"Download File\""
+      ],
+      "loadMs": 117,
+      "httpStatus": 200,
+      "output": {
+        "file": "sample.pdf",
+        "type": "pdf",
+        "bytes": 1215
+      },
+      "durationMs": 4779
+    },
+    {
+      "kind": "tool",
+      "slug": "ppt-to-pdf",
+      "name": "PowerPoint to PDF",
+      "group": "Document Tools",
+      "url": "https://www.filemagics.com/ppt-to-pdf",
+      "status": "PASS",
+      "stage": "done",
+      "message": "Valid PDF (1.4 KB)",
+      "attempt": 1,
+      "api": [],
+      "consoleErrors": [],
+      "notes": [
+        "clicked \"Download File\""
+      ],
+      "loadMs": 108,
+      "httpStatus": 200,
+      "output": {
+        "file": "sample.pdf",
+        "type": "pdf",
+        "bytes": 1455
+      },
+      "durationMs": 2761
+    },
+    {
+      "kind": "tool",
+      "slug": "md-to-pdf",
+      "name": "Markdown to PDF",
+      "group": "Document Tools",
+      "url": "https://www.filemagics.com/md-to-pdf",
+      "status": "PASS",
+      "stage": "done",
+      "message": "Valid PDF (1.2 KB)",
+      "attempt": 1,
+      "api": [],
+      "consoleErrors": [],
+      "notes": [
+        "clicked \"Download File\""
+      ],
+      "loadMs": 109,
+      "httpStatus": 200,
+      "output": {
+        "file": "sample.pdf",
+        "type": "pdf",
+        "bytes": 1227
+      },
+      "durationMs": 2762
+    },
+    {
+      "kind": "tool",
+      "slug": "scan-to-pdf",
+      "name": "Scan to PDF",
+      "group": "PDF Tools",
+      "url": "https://www.filemagics.com/scan-to-pdf",
+      "status": "PASS",
+      "stage": "done",
+      "message": "Valid PDF (19.3 KB)",
+      "attempt": 1,
+      "api": [],
+      "consoleErrors": [],
+      "notes": [
+        "clicked \"Convert 2 Images to PDF\"",
+        "clicked \"Download PDF\""
+      ],
+      "loadMs": 124,
+      "httpStatus": 200,
+      "output": {
+        "file": "scanned_document.pdf",
+        "type": "pdf",
+        "bytes": 19740
+      },
+      "durationMs": 3845
+    },
+    {
+      "kind": "tool",
+      "slug": "image-to-pdf",
+      "name": "Image to PDF",
+      "group": "Image Tools",
+      "url": "https://www.filemagics.com/image-to-pdf",
+      "status": "PASS",
+      "stage": "done",
+      "message": "Valid PDF (16.2 KB)",
+      "attempt": 1,
+      "api": [],
+      "consoleErrors": [],
+      "notes": [
+        "clicked \"Convert Now\"",
+        "clicked \"Download File\""
+      ],
+      "loadMs": 367,
+      "httpStatus": 200,
+      "output": {
+        "file": "sample.pdf",
+        "type": "pdf",
+        "bytes": 16538
+      },
+      "durationMs": 5108
+    },
+    {
+      "kind": "tool",
+      "slug": "png-to-jpg",
+      "name": "PNG to JPG",
+      "group": "Image Tools",
+      "url": "https://www.filemagics.com/png-to-jpg",
+      "status": "PASS",
+      "stage": "done",
+      "message": "Valid JPG (8.2 KB)",
+      "attempt": 1,
+      "api": [],
+      "consoleErrors": [],
+      "notes": [
+        "clicked \"Download File\""
+      ],
+      "loadMs": 121,
+      "httpStatus": 200,
+      "output": {
+        "file": "sample.jpg",
+        "type": "jpg",
+        "bytes": 8403
+      },
+      "durationMs": 2787
+    },
+    {
+      "kind": "tool",
+      "slug": "jpg-to-png",
+      "name": "JPG to PNG",
+      "group": "Image Tools",
+      "url": "https://www.filemagics.com/jpg-to-png",
+      "status": "PASS",
+      "stage": "done",
+      "message": "Valid PNG (15.1 KB)",
+      "attempt": 1,
+      "api": [],
+      "consoleErrors": [],
+      "notes": [
+        "clicked \"Download File\""
+      ],
+      "loadMs": 119,
+      "httpStatus": 200,
+      "output": {
+        "file": "sample.png",
+        "type": "png",
+        "bytes": 15484
+      },
+      "durationMs": 2774
+    },
+    {
+      "kind": "tool",
+      "slug": "webp-to-png",
+      "name": "WEBP to PNG",
+      "group": "Image Tools",
+      "url": "https://www.filemagics.com/webp-to-png",
+      "status": "PASS",
+      "stage": "done",
+      "message": "Valid PNG (10.8 KB)",
+      "attempt": 1,
+      "api": [],
+      "consoleErrors": [],
+      "notes": [
+        "clicked \"Download File\""
+      ],
+      "loadMs": 113,
+      "httpStatus": 200,
+      "output": {
+        "file": "sample.png",
+        "type": "png",
+        "bytes": 11079
+      },
+      "durationMs": 2778
+    },
+    {
+      "kind": "tool",
+      "slug": "compress-image",
+      "name": "Compress Image",
+      "group": "Image Tools",
+      "url": "https://www.filemagics.com/compress-image",
+      "status": "PASS",
+      "stage": "done",
+      "message": "Valid JPG (6.4 KB)",
+      "attempt": 1,
+      "api": [],
+      "consoleErrors": [],
+      "notes": [
+        "clicked \"Download File\""
+      ],
+      "loadMs": 144,
+      "httpStatus": 200,
+      "output": {
+        "file": "sample.jpg",
+        "type": "jpg",
+        "bytes": 6590
+      },
+      "durationMs": 2810
+    },
+    {
+      "kind": "tool",
+      "slug": "png-to-svg",
+      "name": "PNG to SVG",
+      "group": "Image Tools",
+      "url": "https://www.filemagics.com/png-to-svg",
+      "status": "PASS",
+      "stage": "done",
+      "message": "Valid SVG (4.4 KB)",
+      "attempt": 1,
+      "api": [],
+      "consoleErrors": [],
+      "notes": [
+        "clicked \"Download File\""
+      ],
+      "loadMs": 117,
+      "httpStatus": 200,
+      "output": {
+        "file": "sample.svg",
+        "type": "svg",
+        "bytes": 4556
+      },
+      "durationMs": 2777
+    },
+    {
+      "kind": "tool",
+      "slug": "svg-to-png",
+      "name": "SVG to PNG",
+      "group": "Image Tools",
+      "url": "https://www.filemagics.com/svg-to-png",
+      "status": "FAIL",
+      "stage": "processing",
+      "message": "No result after 120s (no API call was made)",
+      "attempt": 2,
+      "api": [],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 501 ()",
+        "Server error: 501 {success: false, error: Complex SVG conversion not supported, message: This Lambda function only supports SVGs with embed…nvert-png-to-svg endpoint for simple conversions., suggestio",
+        "Failed to load resource: the server responded with a status of 501 ()",
+        "Server error: 501 {success: false, error: Complex SVG conversion not supported, message: This Lambda function only supports SVGs with embed…nvert-png-to-svg endpoint for simple conversions., suggestio"
+      ],
+      "notes": [
+        "clicked \"Convert Now\""
+      ],
+      "loadMs": 467,
+      "httpStatus": 200,
+      "screenshot": "artifacts/svg-to-png__fail.png",
+      "durationMs": 123574
+    }
+  ]
+}
