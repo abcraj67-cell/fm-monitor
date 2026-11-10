@@ -1,23 +1,17 @@
 {
   "summary": {
-    "date": "2026-11-09T06:59:51.853Z",
+    "date": "2026-11-10T07:38:47.867Z",
     "baseUrl": "https://www.filemagics.com",
     "total": 39,
-    "passed": 29,
-    "failed": 10,
-    "durationSec": 796,
+    "passed": 28,
+    "failed": 11,
+    "durationSec": 1047,
     "failures": [
-      {
-        "slug": "pdf-to-ppt",
-        "name": "PDF to PowerPoint",
-        "stage": "processing",
-        "message": "elementHandle.click: Timeout 30000ms exceeded."
-      },
       {
         "slug": "crop-pdf",
         "name": "Crop PDF",
         "stage": "processing",
-        "message": "elementHandle.click: Timeout 30000ms exceeded."
+        "message": "No result after 120s (no API call was made)"
       },
       {
         "slug": "remove-pages",
@@ -38,8 +32,8 @@
         "message": "No action button found. Visible buttons: Print"
       },
       {
-        "slug": "excel-to-pdf",
-        "name": "Excel to PDF",
+        "slug": "docs-to-pdf",
+        "name": "Word to PDF",
         "stage": "processing",
         "message": "elementHandle.click: Timeout 30000ms exceeded."
       },
@@ -52,6 +46,18 @@
       {
         "slug": "png-to-jpg",
         "name": "PNG to JPG",
+        "stage": "processing",
+        "message": "elementHandle.click: Timeout 30000ms exceeded."
+      },
+      {
+        "slug": "jpg-to-png",
+        "name": "JPG to PNG",
+        "stage": "processing",
+        "message": "elementHandle.click: Timeout 30000ms exceeded."
+      },
+      {
+        "slug": "webp-to-png",
+        "name": "WEBP to PNG",
         "stage": "processing",
         "message": "elementHandle.click: Timeout 30000ms exceeded."
       },
@@ -78,10 +84,10 @@
       "url": "https://www.filemagics.com/",
       "status": "PASS",
       "consoleErrors": [],
-      "loadMs": 181,
+      "loadMs": 451,
       "httpStatus": 200,
-      "message": "FileMagics | Free Online PDF & File Conversion Tools — 181 ms",
-      "durationMs": 330
+      "message": "FileMagics | Free Online PDF & File Conversion Tools — 451 ms",
+      "durationMs": 529
     },
     {
       "kind": "page",
@@ -91,10 +97,10 @@
       "url": "https://www.filemagics.com/blog",
       "status": "PASS",
       "consoleErrors": [],
-      "loadMs": 359,
+      "loadMs": 473,
       "httpStatus": 200,
-      "message": "FileMagics.com Blog | PDF, Image & Video How-To Guides — 359 ms",
-      "durationMs": 408
+      "message": "FileMagics.com Blog | PDF, Image & Video How-To Guides — 473 ms",
+      "durationMs": 520
     },
     {
       "kind": "page",
@@ -104,10 +110,10 @@
       "url": "https://www.filemagics.com/about-us",
       "status": "PASS",
       "consoleErrors": [],
-      "loadMs": 43,
+      "loadMs": 104,
       "httpStatus": 200,
-      "message": "About FileMagics | Free Online File Converter Tools — 43 ms",
-      "durationMs": 144
+      "message": "About FileMagics | Free Online File Converter Tools — 104 ms",
+      "durationMs": 174
     },
     {
       "kind": "page",
@@ -117,10 +123,10 @@
       "url": "https://www.filemagics.com/contact-us",
       "status": "PASS",
       "consoleErrors": [],
-      "loadMs": 42,
+      "loadMs": 99,
       "httpStatus": 200,
-      "message": "Contact FileMagics | Get Support for File Conversion — 42 ms",
-      "durationMs": 135
+      "message": "Contact FileMagics | Get Support for File Conversion — 99 ms",
+      "durationMs": 168
     },
     {
       "kind": "page",
@@ -130,10 +136,10 @@
       "url": "https://www.filemagics.com/faq",
       "status": "PASS",
       "consoleErrors": [],
-      "loadMs": 46,
+      "loadMs": 54,
       "httpStatus": 200,
-      "message": "FAQ | Questions About File Conversion — 46 ms",
-      "durationMs": 150
+      "message": "FAQ | Questions About File Conversion — 54 ms",
+      "durationMs": 169
     },
     {
       "kind": "page",
@@ -143,10 +149,10 @@
       "url": "https://www.filemagics.com/privacy-policy",
       "status": "PASS",
       "consoleErrors": [],
-      "loadMs": 41,
+      "loadMs": 58,
       "httpStatus": 200,
-      "message": "Privacy Policy | How We Protect Your Data — 41 ms",
-      "durationMs": 143
+      "message": "Privacy Policy | How We Protect Your Data — 58 ms",
+      "durationMs": 163
     },
     {
       "kind": "page",
@@ -156,10 +162,10 @@
       "url": "https://www.filemagics.com/terms-conditions",
       "status": "PASS",
       "consoleErrors": [],
-      "loadMs": 42,
+      "loadMs": 101,
       "httpStatus": 200,
-      "message": "Terms & Conditions | File Conversion Services — 42 ms",
-      "durationMs": 135
+      "message": "Terms & Conditions | File Conversion Services — 101 ms",
+      "durationMs": 176
     },
     {
       "kind": "page",
@@ -169,10 +175,10 @@
       "url": "https://www.filemagics.com/support-us",
       "status": "PASS",
       "consoleErrors": [],
-      "loadMs": 96,
+      "loadMs": 144,
       "httpStatus": 200,
-      "message": "Support FileMagics.com | Help Keep Free Tools Running — 96 ms",
-      "durationMs": 160
+      "message": "Support FileMagics.com | Help Keep Free Tools Running — 144 ms",
+      "durationMs": 215
     },
     {
       "kind": "tool",
@@ -183,31 +189,32 @@
       "status": "PASS",
       "stage": "done",
       "message": "Valid DOCX (35.9 KB)",
-      "attempt": 1,
+      "attempt": 2,
       "api": [
         {
           "endpoint": "/proxyApi/convert-pdf-to-docx",
           "status": 308,
-          "ms": 121
+          "ms": 85
         },
         {
           "endpoint": "/proxyApi/convert-pdf-to-docx",
           "status": 200,
-          "ms": 377
+          "ms": 2797
         }
       ],
       "consoleErrors": [],
       "notes": [
         "clicked \"Download File\""
       ],
-      "loadMs": 168,
+      "loadMs": 181,
       "httpStatus": 200,
       "output": {
         "file": "sample.docx",
         "type": "docx",
         "bytes": 36733
       },
-      "durationMs": 2934
+      "durationMs": 3991,
+      "flaky": true
     },
     {
       "kind": "tool",
@@ -223,26 +230,26 @@
         {
           "endpoint": "/proxyApi/convert-pdf-to-excel-file",
           "status": 308,
-          "ms": 128
+          "ms": 90
         },
         {
           "endpoint": "/proxyApi/convert-pdf-to-excel-file",
           "status": 200,
-          "ms": 226
+          "ms": 197
         }
       ],
       "consoleErrors": [],
       "notes": [
         "clicked \"Download File\""
       ],
-      "loadMs": 175,
+      "loadMs": 157,
       "httpStatus": 200,
       "output": {
         "file": "sample.xlsx",
         "type": "xlsx",
         "bytes": 4984
       },
-      "durationMs": 2964
+      "durationMs": 2986
     },
     {
       "kind": "tool",
@@ -250,17 +257,24 @@
       "name": "PDF to PowerPoint",
       "group": "PDF Tools",
       "url": "https://www.filemagics.com/pdf-to-ppt",
-      "status": "FAIL",
-      "stage": "processing",
-      "message": "elementHandle.click: Timeout 30000ms exceeded.",
-      "attempt": 2,
+      "status": "PASS",
+      "stage": "done",
+      "message": "Valid PPTX (96.9 KB)",
+      "attempt": 1,
       "api": [],
       "consoleErrors": [],
-      "notes": [],
-      "loadMs": 118,
+      "notes": [
+        "clicked \"Convert to PowerPoint\"",
+        "clicked \"Download PowerPoint\""
+      ],
+      "loadMs": 186,
       "httpStatus": 200,
-      "screenshot": "artifacts/pdf-to-ppt__fail.png",
-      "durationMs": 32890
+      "output": {
+        "file": "sample.pptx",
+        "type": "pptx",
+        "bytes": 99199
+      },
+      "durationMs": 7007
     },
     {
       "kind": "tool",
@@ -271,21 +285,22 @@
       "status": "PASS",
       "stage": "done",
       "message": "Valid PDF (3.0 KB)",
-      "attempt": 1,
+      "attempt": 2,
       "api": [],
       "consoleErrors": [],
       "notes": [
         "clicked \"Convert to PDF/A-2b\"",
         "clicked \"Download PDF/A\""
       ],
-      "loadMs": 236,
+      "loadMs": 226,
       "httpStatus": 200,
       "output": {
         "file": "sample_pdfa.pdf",
         "type": "pdf",
         "bytes": 3041
       },
-      "durationMs": 6247
+      "durationMs": 3990,
+      "flaky": true
     },
     {
       "kind": "tool",
@@ -301,26 +316,26 @@
         {
           "endpoint": "/proxyApi/convert-pdf-to-text-file",
           "status": 308,
-          "ms": 57
+          "ms": 78
         },
         {
           "endpoint": "/proxyApi/convert-pdf-to-text-file",
           "status": 200,
-          "ms": 201
+          "ms": 77
         }
       ],
       "consoleErrors": [],
       "notes": [
         "clicked \"Download File\""
       ],
-      "loadMs": 133,
+      "loadMs": 137,
       "httpStatus": 200,
       "output": {
         "file": "sample.txt",
         "type": "txt",
         "bytes": 336
       },
-      "durationMs": 2851
+      "durationMs": 2921
     },
     {
       "kind": "tool",
@@ -336,26 +351,26 @@
         {
           "endpoint": "/proxyApi/convert-pdf-to-image",
           "status": 308,
-          "ms": 64
+          "ms": 58
         },
         {
           "endpoint": "/proxyApi/convert-pdf-to-image",
           "status": 200,
-          "ms": 459
+          "ms": 708
         }
       ],
       "consoleErrors": [],
       "notes": [
         "clicked \"Download File\""
       ],
-      "loadMs": 47,
+      "loadMs": 131,
       "httpStatus": 200,
       "output": {
         "file": "sample.png",
         "type": "png",
         "bytes": 35718
       },
-      "durationMs": 2881
+      "durationMs": 2884
     },
     {
       "kind": "tool",
@@ -371,12 +386,12 @@
         {
           "endpoint": "/proxyApi/merge-pdfs",
           "status": 308,
-          "ms": 43
+          "ms": 46
         },
         {
           "endpoint": "/proxyApi/merge-pdfs",
           "status": 200,
-          "ms": 122
+          "ms": 94
         }
       ],
       "consoleErrors": [],
@@ -384,14 +399,14 @@
         "clicked \"Convert Now\"",
         "clicked \"Download File\""
       ],
-      "loadMs": 43,
+      "loadMs": 132,
       "httpStatus": 200,
       "output": {
         "file": "sample.pdf",
         "type": "pdf",
         "bytes": 3874
       },
-      "durationMs": 3926
+      "durationMs": 3914
     },
     {
       "kind": "tool",
@@ -407,26 +422,26 @@
         {
           "endpoint": "/proxyApi/compress-pdf",
           "status": 308,
-          "ms": 154
+          "ms": 64
         },
         {
           "endpoint": "/proxyApi/compress-pdf",
           "status": 200,
-          "ms": 189
+          "ms": 137
         }
       ],
       "consoleErrors": [],
       "notes": [
         "clicked \"Download File\""
       ],
-      "loadMs": 161,
+      "loadMs": 132,
       "httpStatus": 200,
       "output": {
         "file": "sample.pdf",
         "type": "pdf",
         "bytes": 2176
       },
-      "durationMs": 2991
+      "durationMs": 2854
     },
     {
       "kind": "tool",
@@ -442,26 +457,26 @@
         {
           "endpoint": "/proxyApi/enhance-pdf-quality",
           "status": 308,
-          "ms": 78
+          "ms": 64
         },
         {
           "endpoint": "/proxyApi/enhance-pdf-quality",
           "status": 200,
-          "ms": 90
+          "ms": 169
         }
       ],
       "consoleErrors": [],
       "notes": [
         "clicked \"Download File\""
       ],
-      "loadMs": 139,
+      "loadMs": 136,
       "httpStatus": 200,
       "output": {
         "file": "sample.pdf",
         "type": "pdf",
         "bytes": 2176
       },
-      "durationMs": 2923
+      "durationMs": 2885
     },
     {
       "kind": "tool",
@@ -476,9 +491,9 @@
       "api": [],
       "consoleErrors": [],
       "notes": [],
-      "loadMs": 170,
+      "loadMs": 148,
       "httpStatus": 200,
-      "durationMs": 2952
+      "durationMs": 2844
     },
     {
       "kind": "tool",
@@ -488,15 +503,17 @@
       "url": "https://www.filemagics.com/crop-pdf",
       "status": "FAIL",
       "stage": "processing",
-      "message": "elementHandle.click: Timeout 30000ms exceeded.",
+      "message": "No result after 120s (no API call was made)",
       "attempt": 2,
       "api": [],
       "consoleErrors": [],
-      "notes": [],
-      "loadMs": 141,
+      "notes": [
+        "clicked \"No crop\""
+      ],
+      "loadMs": 336,
       "httpStatus": 200,
       "screenshot": "artifacts/crop-pdf__fail.png",
-      "durationMs": 32958
+      "durationMs": 123820
     },
     {
       "kind": "tool",
@@ -514,14 +531,14 @@
         "clicked \"Add Page Numbers\"",
         "clicked \"Download Numbered PDF\""
       ],
-      "loadMs": 103,
+      "loadMs": 246,
       "httpStatus": 200,
       "output": {
         "file": "sample_numbered.pdf",
         "type": "pdf",
-        "bytes": 3219
+        "bytes": 3220
       },
-      "durationMs": 4082
+      "durationMs": 4160
     },
     {
       "kind": "tool",
@@ -532,19 +549,18 @@
       "status": "PASS",
       "stage": "done",
       "message": "Valid PDF (2.8 KB)",
-      "attempt": 2,
+      "attempt": 1,
       "api": [],
       "consoleErrors": [],
       "notes": [],
-      "loadMs": 122,
+      "loadMs": 136,
       "httpStatus": 200,
       "output": {
-        "file": "e2291604-cb78-4f06-a3a2-f8e808de6f04.pdf",
+        "file": "5b875697-0d01-4ba5-999f-770c0d5483dd.pdf",
         "type": "pdf",
         "bytes": 2817
       },
-      "durationMs": 3423,
-      "flaky": true
+      "durationMs": 3449
     },
     {
       "kind": "tool",
@@ -562,14 +578,14 @@
         "clicked \"Extract 2 Pages\"",
         "clicked \"Download Extracted PDF\""
       ],
-      "loadMs": 181,
+      "loadMs": 178,
       "httpStatus": 200,
       "output": {
         "file": "sample_extracted.pdf",
         "type": "pdf",
         "bytes": 1991
       },
-      "durationMs": 5278
+      "durationMs": 7110
     },
     {
       "kind": "tool",
@@ -587,14 +603,14 @@
         "clicked \"Apply New Order\"",
         "clicked \"Download Organized PDF\""
       ],
-      "loadMs": 124,
+      "loadMs": 134,
       "httpStatus": 200,
       "output": {
         "file": "sample_organized.pdf",
         "type": "pdf",
         "bytes": 2841
       },
-      "durationMs": 3955
+      "durationMs": 3948
     },
     {
       "kind": "tool",
@@ -609,10 +625,10 @@
       "api": [],
       "consoleErrors": [],
       "notes": [],
-      "loadMs": 249,
+      "loadMs": 141,
       "httpStatus": 200,
       "screenshot": "artifacts/remove-pages__fail.png",
-      "durationMs": 20830
+      "durationMs": 20792
     },
     {
       "kind": "tool",
@@ -630,14 +646,14 @@
         "clicked \"Repair PDF\"",
         "clicked \"Download Repaired PDF\""
       ],
-      "loadMs": 164,
+      "loadMs": 257,
       "httpStatus": 200,
       "output": {
         "file": "sample_repaired.pdf",
         "type": "pdf",
         "bytes": 1907
       },
-      "durationMs": 3945
+      "durationMs": 3978
     },
     {
       "kind": "tool",
@@ -652,10 +668,10 @@
       "api": [],
       "consoleErrors": [],
       "notes": [],
-      "loadMs": 120,
+      "loadMs": 140,
       "httpStatus": 200,
       "screenshot": "artifacts/ocr-pdf__fail.png",
-      "durationMs": 21149
+      "durationMs": 21042
     },
     {
       "kind": "tool",
@@ -670,10 +686,10 @@
       "api": [],
       "consoleErrors": [],
       "notes": [],
-      "loadMs": 130,
+      "loadMs": 309,
       "httpStatus": 200,
       "screenshot": "artifacts/html-to-pdf__fail.png",
-      "durationMs": 21020
+      "durationMs": 20177
     },
     {
       "kind": "tool",
@@ -681,31 +697,6 @@
       "name": "Word to PDF",
       "group": "Document Tools",
       "url": "https://www.filemagics.com/docs-to-pdf",
-      "status": "PASS",
-      "stage": "done",
-      "message": "Valid PDF (1.4 KB)",
-      "attempt": 2,
-      "api": [],
-      "consoleErrors": [],
-      "notes": [
-        "clicked \"Download File\""
-      ],
-      "loadMs": 194,
-      "httpStatus": 200,
-      "output": {
-        "file": "sample.pdf",
-        "type": "pdf",
-        "bytes": 1461
-      },
-      "durationMs": 2956,
-      "flaky": true
-    },
-    {
-      "kind": "tool",
-      "slug": "excel-to-pdf",
-      "name": "Excel to PDF",
-      "group": "Document Tools",
-      "url": "https://www.filemagics.com/excel-to-pdf",
       "status": "FAIL",
       "stage": "processing",
       "message": "elementHandle.click: Timeout 30000ms exceeded.",
@@ -713,10 +704,35 @@
       "api": [],
       "consoleErrors": [],
       "notes": [],
-      "loadMs": 45,
+      "loadMs": 128,
       "httpStatus": 200,
-      "screenshot": "artifacts/excel-to-pdf__fail.png",
-      "durationMs": 32888
+      "screenshot": "artifacts/docs-to-pdf__fail.png",
+      "durationMs": 32920
+    },
+    {
+      "kind": "tool",
+      "slug": "excel-to-pdf",
+      "name": "Excel to PDF",
+      "group": "Document Tools",
+      "url": "https://www.filemagics.com/excel-to-pdf",
+      "status": "PASS",
+      "stage": "done",
+      "message": "Valid PDF (1.2 KB)",
+      "attempt": 2,
+      "api": [],
+      "consoleErrors": [],
+      "notes": [
+        "clicked \"Download File\""
+      ],
+      "loadMs": 135,
+      "httpStatus": 200,
+      "output": {
+        "file": "sample.pdf",
+        "type": "pdf",
+        "bytes": 1215
+      },
+      "durationMs": 2918,
+      "flaky": true
     },
     {
       "kind": "tool",
@@ -727,21 +743,20 @@
       "status": "PASS",
       "stage": "done",
       "message": "Valid PDF (1.4 KB)",
-      "attempt": 2,
+      "attempt": 1,
       "api": [],
       "consoleErrors": [],
       "notes": [
         "clicked \"Download File\""
       ],
-      "loadMs": 138,
+      "loadMs": 137,
       "httpStatus": 200,
       "output": {
         "file": "sample.pdf",
         "type": "pdf",
         "bytes": 1455
       },
-      "durationMs": 2930,
-      "flaky": true
+      "durationMs": 2850
     },
     {
       "kind": "tool",
@@ -752,20 +767,21 @@
       "status": "PASS",
       "stage": "done",
       "message": "Valid PDF (1.2 KB)",
-      "attempt": 1,
+      "attempt": 2,
       "api": [],
       "consoleErrors": [],
       "notes": [
         "clicked \"Download File\""
       ],
-      "loadMs": 293,
+      "loadMs": 197,
       "httpStatus": 200,
       "output": {
         "file": "sample.pdf",
         "type": "pdf",
         "bytes": 1227
       },
-      "durationMs": 3011
+      "durationMs": 2913,
+      "flaky": true
     },
     {
       "kind": "tool",
@@ -783,14 +799,14 @@
         "clicked \"Convert 2 Images to PDF\"",
         "clicked \"Download PDF\""
       ],
-      "loadMs": 290,
+      "loadMs": 136,
       "httpStatus": 200,
       "output": {
         "file": "scanned_document.pdf",
         "type": "pdf",
-        "bytes": 19740
+        "bytes": 19737
       },
-      "durationMs": 4072
+      "durationMs": 3886
     },
     {
       "kind": "tool",
@@ -805,10 +821,10 @@
       "api": [],
       "consoleErrors": [],
       "notes": [],
-      "loadMs": 240,
+      "loadMs": 133,
       "httpStatus": 200,
       "screenshot": "artifacts/image-to-pdf__fail.png",
-      "durationMs": 33008
+      "durationMs": 32958
     },
     {
       "kind": "tool",
@@ -823,10 +839,10 @@
       "api": [],
       "consoleErrors": [],
       "notes": [],
-      "loadMs": 249,
+      "loadMs": 135,
       "httpStatus": 200,
       "screenshot": "artifacts/png-to-jpg__fail.png",
-      "durationMs": 32993
+      "durationMs": 32935
     },
     {
       "kind": "tool",
@@ -834,23 +850,17 @@
       "name": "JPG to PNG",
       "group": "Image Tools",
       "url": "https://www.filemagics.com/jpg-to-png",
-      "status": "PASS",
-      "stage": "done",
-      "message": "Valid PNG (15.1 KB)",
-      "attempt": 1,
+      "status": "FAIL",
+      "stage": "processing",
+      "message": "elementHandle.click: Timeout 30000ms exceeded.",
+      "attempt": 2,
       "api": [],
       "consoleErrors": [],
-      "notes": [
-        "clicked \"Download File\""
-      ],
-      "loadMs": 46,
+      "notes": [],
+      "loadMs": 127,
       "httpStatus": 200,
-      "output": {
-        "file": "sample.png",
-        "type": "png",
-        "bytes": 15484
-      },
-      "durationMs": 2912
+      "screenshot": "artifacts/jpg-to-png__fail.png",
+      "durationMs": 32928
     },
     {
       "kind": "tool",
@@ -858,24 +868,17 @@
       "name": "WEBP to PNG",
       "group": "Image Tools",
       "url": "https://www.filemagics.com/webp-to-png",
-      "status": "PASS",
-      "stage": "done",
-      "message": "Valid PNG (10.8 KB)",
+      "status": "FAIL",
+      "stage": "processing",
+      "message": "elementHandle.click: Timeout 30000ms exceeded.",
       "attempt": 2,
       "api": [],
       "consoleErrors": [],
-      "notes": [
-        "clicked \"Download File\""
-      ],
-      "loadMs": 335,
+      "notes": [],
+      "loadMs": 143,
       "httpStatus": 200,
-      "output": {
-        "file": "sample.png",
-        "type": "png",
-        "bytes": 11079
-      },
-      "durationMs": 3050,
-      "flaky": true
+      "screenshot": "artifacts/webp-to-png__fail.png",
+      "durationMs": 32891
     },
     {
       "kind": "tool",
@@ -890,10 +893,10 @@
       "api": [],
       "consoleErrors": [],
       "notes": [],
-      "loadMs": 47,
+      "loadMs": 56,
       "httpStatus": 200,
       "screenshot": "artifacts/compress-image__fail.png",
-      "durationMs": 32876
+      "durationMs": 32904
     },
     {
       "kind": "tool",
@@ -910,14 +913,14 @@
       "notes": [
         "clicked \"Download File\""
       ],
-      "loadMs": 235,
+      "loadMs": 184,
       "httpStatus": 200,
       "output": {
         "file": "sample.svg",
         "type": "svg",
         "bytes": 4556
       },
-      "durationMs": 3015
+      "durationMs": 2946
     },
     {
       "kind": "tool",
@@ -935,10 +938,10 @@
         "Server error: 501 {success: false, error: Complex SVG conversion not supported, message: This Lambda function only supports SVGs with embed…nvert-png-to-svg endpoint for simple conversions., suggestio"
       ],
       "notes": [],
-      "loadMs": 51,
+      "loadMs": 129,
       "httpStatus": 200,
       "screenshot": "artifacts/svg-to-png__fail.png",
-      "durationMs": 32890
+      "durationMs": 32873
     }
   ]
 }
